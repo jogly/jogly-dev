@@ -15,7 +15,7 @@ const WORK = [
     company: 'Bandit ML',
     role: 'Co-Founder',
     dates: '2020 — 22',
-    badge: 'YC S20 · acq.',
+    badge: 'YC S20',
   },
   {
     company: 'Uber',
@@ -24,7 +24,7 @@ const WORK = [
     badge: null,
   },
   {
-    company: 'IBM Global Business Services',
+    company: 'IBM',
     role: 'Systems Engineer',
     dates: '2011 — 14',
     badge: null,
@@ -34,17 +34,17 @@ const WORK = [
 const PROJECTS = [
   {
     name: 'h3-go',
-    desc: 'hexagonal geospatial grid · go',
+    desc: 'hexagonal geospatial indexing',
     href: 'https://github.com/uber/h3-go',
   },
   {
     name: 'slashtable',
-    desc: 'discord slash command platform',
+    desc: 'slash command platform',
     href: 'https://github.com/jogly/slashtable-web',
   },
   {
     name: 'oar',
-    desc: 'oauth2 callback re-router · go',
+    desc: 'oauth2 callback re-router',
     href: 'https://github.com/jogly/oar',
   },
   {
@@ -64,55 +64,52 @@ export function Home() {
     <div className="page">
       <header className="nav">
         <span className="nav-mark">JG</span>
-        <nav className="nav-links">
-          <a href="#work">Work</a>
-          <a href="#projects">Projects</a>
-          <a href="#connect">Connect</a>
-        </nav>
+        <span className="nav-domain">jogly.dev</span>
       </header>
 
       <main>
         <section className="hero">
-          <p className="hero-eyebrow">jogly.dev — San Francisco, CA</p>
           <h1 className="hero-name">
-            Joseph<br />Gilley<span className="hero-cursor" aria-hidden="true" />
+            Joseph<br />Gilley
           </h1>
-          <div className="hero-prompt">
-            <span className="hero-prompt-char">$</span>
-            <span className="hero-tagline">aesthetic coder · ex-YC S20 · distributed systems</span>
-          </div>
-          <div className="hero-meta">
-            <span className="hero-meta-item">creating for creation's sake</span>
-            <span className="hero-meta-sep">/</span>
-            <span className="hero-meta-item">Binghamton CS Eng. '11</span>
-          </div>
+          <p className="hero-sub">
+            <span>Aesthetic Coder</span>
+            <span className="hero-sep">·</span>
+            <span>Ex-YC S20</span>
+            <span className="hero-sep">·</span>
+            <span>Distributed Systems</span>
+            <span className="hero-sep">·</span>
+            <span>San Francisco</span>
+          </p>
         </section>
 
         <section className="section" id="about">
-          <p className="section-label">§ 01 — About</p>
-          <p className="about-text">
-            Co-founder and team lead with a deep interest in{' '}
-            <em>distributed systems</em>. I've built real-time billing
-            platforms at Uber scale, shipped a YC-backed ML startup from zero
-            to acquisition, and led architecture working groups that turned
-            months of launch time into days. I care about things that are{' '}
-            <em>well-designed and fast</em>.
+          <div className="section-label">
+            <span className="section-num">00</span>
+            <span className="section-title">About</span>
+          </div>
+          <p className="about">
+            Co-founder and team lead with a deep interest in distributed systems.
+            Built real-time billing at Uber scale, shipped a YC-backed ML startup
+            from zero to acquisition, and led architecture reviews that turned months
+            of launch time into days. Creating for creation's sake.
           </p>
         </section>
 
         <section className="section" id="work">
-          <p className="section-label">§ 02 — Work</p>
+          <div className="section-label">
+            <span className="section-num">01</span>
+            <span className="section-title">Work</span>
+          </div>
           <div>
             {WORK.map((w) => (
               <div className="entry" key={w.company}>
-                <div className="entry-left">
-                  <span className="entry-company">
+                <div>
+                  <div className="entry-company">
                     {w.company}
-                    {w.badge && (
-                      <span className="entry-badge">{w.badge}</span>
-                    )}
-                  </span>
-                  <span className="entry-role">{w.role}</span>
+                    {w.badge && <span className="entry-badge">{w.badge}</span>}
+                  </div>
+                  <div className="entry-role">{w.role}</div>
                 </div>
                 <span className="entry-dates">{w.dates}</span>
               </div>
@@ -121,9 +118,12 @@ export function Home() {
         </section>
 
         <section className="section" id="projects">
-          <p className="section-label">§ 03 — Projects</p>
+          <div className="section-label">
+            <span className="section-num">02</span>
+            <span className="section-title">Projects</span>
+          </div>
           <div>
-            {PROJECTS.map((p) => (
+            {PROJECTS.map((p, i) => (
               <a
                 className="project"
                 key={p.name}
@@ -131,9 +131,8 @@ export function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="project-arrow">→</span>
+                <span className="project-idx">{String(i + 1).padStart(2, '0')}</span>
                 <span className="project-name">{p.name}</span>
-                <span className="project-dots" aria-hidden="true" />
                 <span className="project-desc">{p.desc}</span>
               </a>
             ))}
@@ -141,18 +140,21 @@ export function Home() {
         </section>
 
         <section className="section" id="connect">
-          <p className="section-label">§ 04 — Connect</p>
-          <div className="connect-grid">
-            <div className="connect-item">
-              <span className="connect-label">Email</span>
-              <a className="connect-value" href="mailto:joe.gilley@gmail.com">
+          <div className="section-label">
+            <span className="section-num">03</span>
+            <span className="section-title">Connect</span>
+          </div>
+          <div className="connect">
+            <div className="connect-row">
+              <span className="connect-key">Email</span>
+              <a className="connect-val" href="mailto:joe.gilley@gmail.com">
                 joe.gilley@gmail.com
               </a>
             </div>
-            <div className="connect-item">
-              <span className="connect-label">GitHub</span>
+            <div className="connect-row">
+              <span className="connect-key">GitHub</span>
               <a
-                className="connect-value"
+                className="connect-val"
                 href="https://github.com/jogly"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -160,10 +162,10 @@ export function Home() {
                 github.com/jogly
               </a>
             </div>
-            <div className="connect-item">
-              <span className="connect-label">LinkedIn</span>
+            <div className="connect-row">
+              <span className="connect-key">LinkedIn</span>
               <a
-                className="connect-value"
+                className="connect-val"
                 href="https://linkedin.com/in/jogly"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -176,7 +178,7 @@ export function Home() {
       </main>
 
       <footer className="footer">
-        <span>jogly.dev</span>
+        <span>Joseph Gilley</span>
         <span>© {new Date().getFullYear()}</span>
       </footer>
     </div>

@@ -14,7 +14,6 @@ dist-ssr
 
 # Local scratch files
 _profile_tmp.pdf
-public/resume.pdf
 
 # Editor directories and files
 .vscode/*

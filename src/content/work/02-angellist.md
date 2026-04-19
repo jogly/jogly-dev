@@ -3,8 +3,8 @@ company: AngelList
 role: Software Engineer
 dates: 2025 — 26
 short: 25 — 26
-coord: [37.78218, -122.40158]
-address: 555 Bryant St, San Francisco, CA
+coord: [37.79658, -122.40388]
+address: 90 Gold St, San Francisco, CA
 ---
 
 Built the backend systems that power AngelList's

@@ -1,14 +1,15 @@
 import { latLngToCell } from "h3-js";
 import { useState } from "react";
 import { CityThumb } from "../components/CityThumb";
-import { CityStage } from "../components/CityStage";
+// CityStage temporarily disabled — restore the <aside className="anchor"> below
+// (and the .stage grid-template-columns in anchor.css) to bring it back.
+// import { CityStage } from "../components/CityStage";
 import { PROJECTS, WORK } from "../data";
 import { hexToCharCode } from "../lib/h3Encoding";
 import "../styles/anchor.css";
 
 export function Anchor() {
 	const [active, setActive] = useState<number | null>(0);
-	const activeWork = active != null ? WORK[active] : null;
 
 	return (
 		<div className="v-anchor">
@@ -25,7 +26,12 @@ export function Anchor() {
 								↓
 							</span>
 						</a>
-						<span className="top-r">jogly.dev · 2026</span>
+						<span className="top-r">
+							<a className="entry-co-link" href="/">
+								jogly.dev
+							</a>{" "}
+							· 2026
+						</span>
 					</header>
 
 					<h1 className="hero-name">Joseph Gilley</h1>
@@ -168,6 +174,7 @@ export function Anchor() {
 					</section>
 				</div>
 
+				{/* Disabled for now — iterating on CityStage tomorrow.
 				<aside className="anchor" aria-hidden="true">
 					{activeWork?.coord && (
 						<CityStage
@@ -177,6 +184,7 @@ export function Anchor() {
 						/>
 					)}
 				</aside>
+				*/}
 			</div>
 		</div>
 	);

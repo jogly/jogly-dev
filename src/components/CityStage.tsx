@@ -51,6 +51,8 @@ function formatEdge(m: number): string {
 }
 
 function formatAlt(m: number): string {
+	if (m >= 1e6) return `${(m / 1e6).toFixed(1)} Mm`;
+	if (m >= 1e4) return `${(m / 1000).toFixed(0)} km`;
 	if (m >= 1000) return `${(m / 1000).toFixed(1)} km`;
 	return `${m.toFixed(0)} m`;
 }
@@ -227,29 +229,38 @@ export function CityStage({ lat, lng, address }: Props) {
 		focused.res as (typeof RESOLUTIONS)[number],
 	);
 
-	// Project helpers (meters → SVG px, centered on 0).
-	const mkPath = (pts: readonly (readonly [number, number])[]) =>
-		pts
-			.map(
-				([x, y], i) =>
-					`${i === 0 ? "M" : "L"}${(x / mpp).toFixed(2)} ${(-y / mpp).toFixed(2)}`,
-			)
-			.join(" ") + " Z";
-
-	// Streets linger longer than cells — gentle power-curve fade.
-	const streetOpacity = Math.max(0, Math.pow(1 - Math.min(1, zoom * 1.5), 3));
-	const streetPaths = useMemo(
+	// Pre-project geometry once in METERS. Zoom only updates a single
+	// scale transform on the parent group — React never regenerates these
+	// path strings, so dense street networks stay smooth under animation.
+	const hexPathsM = useMemo(
+		() =>
+			cells.map(
+				(c) =>
+					c.pts
+						.map(
+							([x, y], i) =>
+								`${i === 0 ? "M" : "L"}${x.toFixed(0)} ${(-y).toFixed(0)}`,
+						)
+						.join(" ") + " Z",
+			),
+		[cells],
+	);
+	const streetPathsM = useMemo(
 		() =>
 			streets.map((line) =>
 				line
 					.map(
 						([x, y], j) =>
-							`${j === 0 ? "M" : "L"}${(x / mpp).toFixed(1)} ${(-y / mpp).toFixed(1)}`,
+							`${j === 0 ? "M" : "L"}${x.toFixed(0)} ${(-y).toFixed(0)}`,
 					)
 					.join(" "),
 			),
-		[streets, mpp],
+		[streets],
 	);
+
+	// Streets linger longer than cells — gentle power-curve fade.
+	const streetOpacity = Math.max(0, Math.pow(1 - Math.min(1, zoom * 1.5), 3));
+	const worldScale = 1 / mpp;
 
 	// Approximate altitude in meters (camera distance ≈ mpp * vh for 30°-ish fov).
 	const altMeters = mpp * vh * 1.5;
@@ -316,7 +327,7 @@ export function CityStage({ lat, lng, address }: Props) {
 								patternUnits="userSpaceOnUse"
 								width="11"
 								height="11"
-								patternTransform="rotate(45)"
+								patternTransform={`scale(${mpp}) rotate(45)`}
 							>
 								<line
 									x1="0"
@@ -329,56 +340,45 @@ export function CityStage({ lat, lng, address }: Props) {
 						))}
 					</defs>
 
-					<g className="cs-world">
-						{/* streets */}
+					{/* Single scale transform — path strings stay stable. */}
+					<g className="cs-world" transform={`scale(${worldScale})`}>
+						{/* streets (pre-projected in meters) */}
 						{streetOpacity > 0.02 && (
 							<g className="cs-streets" style={{ opacity: streetOpacity }}>
-								{streetPaths.map((d, i) => (
+								{streetPathsM.map((d, i) => (
 									<path key={i} d={d} className="cs-street" />
 								))}
 							</g>
 						)}
 
-						{/* hex cells, painted coarsest first so fine ones sit on top */}
-						{scaled
-							.filter((s) => s.opacity > 0.01)
-							.map((s) => {
-								const d = mkPath(s.pts);
-								const isFocus = s.res === focused.res;
-								return (
-									<g
-										key={s.res}
-										className={`cs-cell${isFocus ? " is-focus" : ""}`}
-										style={{ opacity: s.opacity }}
-									>
-										<path d={d} className="cs-hex-face" />
-										<path
-											d={d}
-											className="cs-hex-hatch"
-											fill={`url(#cs-hatch-${s.res})`}
-										/>
-										<path d={d} className="cs-hex-outline" />
-										{/* resolution tag anchored at top of the cell */}
-										{s.diamPx > 90 && (
-											<text
-												x="0"
-												y={-s.maxR / mpp - 6}
-												className="cs-cell-tag"
-												textAnchor="middle"
-											>
-												R{String(s.res).padStart(2, "0")} ·{" "}
-												{formatEdge(s.edge)}
-											</text>
-										)}
-									</g>
-								);
-							})}
+						{/* hex cells — geometry stable, only opacity changes per frame */}
+						{scaled.map((s, i) => {
+							if (s.opacity < 0.01) return null;
+							const isFocus = s.res === focused.res;
+							const d = hexPathsM[i];
+							return (
+								<g
+									key={s.res}
+									className={`cs-cell${isFocus ? " is-focus" : ""}`}
+									style={{ opacity: s.opacity }}
+								>
+									<path d={d} className="cs-hex-face" />
+									<path
+										d={d}
+										className="cs-hex-hatch"
+										fill={`url(#cs-hatch-${s.res})`}
+									/>
+									<path d={d} className="cs-hex-outline" />
+								</g>
+							);
+						})}
+					</g>
 
-						{/* address anchor dot */}
-						<g className="cs-anchor">
-							<circle cx="0" cy="0" r="4.5" className="cs-anchor-dot" />
-							<circle cx="0" cy="0" r="9" className="cs-anchor-ring" />
-						</g>
+					{/* Anchor dot lives OUTSIDE the scaled world so it stays crisp
+					    at any zoom and doesn't inherit the scale. */}
+					<g className="cs-anchor">
+						<circle cx="0" cy="0" r="4.5" className="cs-anchor-dot" />
+						<circle cx="0" cy="0" r="9" className="cs-anchor-ring" />
 					</g>
 				</svg>
 

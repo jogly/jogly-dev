@@ -1,0 +1,41 @@
+.vnav {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.4rem 0.5rem;
+  background: rgba(20, 18, 15, 0.82);
+  color: #F4EDE0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  z-index: 999;
+}
+
+.vnav-link {
+  color: rgba(244, 237, 224, 0.55);
+  text-decoration: none;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.vnav-link:hover { color: #F4EDE0; }
+
+.vnav-link.is-active {
+  color: #0D0B08;
+  background: #F4EDE0;
+}
+
+@media (max-width: 640px) {
+  .vnav { font-size: 0.52rem; padding: 0.3rem 0.35rem; gap: 0.1rem; }
+  .vnav-link { padding: 0.35rem 0.5rem; letter-spacing: 0.12em; }
+}

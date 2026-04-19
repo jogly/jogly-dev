@@ -177,6 +177,14 @@ a { color: inherit; text-decoration: none; }
   margin-top: 0.1rem;
 }
 
+.entry-blurb {
+  font-size: 0.65rem;
+  line-height: 1.85;
+  color: var(--mid);
+  max-width: 48ch;
+  margin-top: 0.5rem;
+}
+
 .entry-dates {
   font-size: 0.55rem;
   color: var(--dim);

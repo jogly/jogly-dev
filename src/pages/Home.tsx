@@ -1,63 +1,5 @@
-const WORK = [
-  {
-    company: 'AngelList',
-    role: 'Software Engineer',
-    dates: '2025 — 26',
-    badge: null,
-  },
-  {
-    company: 'Silo',
-    role: 'Lead Architect',
-    dates: '2022 — 23',
-    badge: null,
-  },
-  {
-    company: 'Bandit ML',
-    role: 'Co-Founder',
-    dates: '2020 — 22',
-    badge: 'YC S20',
-  },
-  {
-    company: 'Uber',
-    role: 'Staff Software Engineer',
-    dates: '2014 — 20',
-    badge: null,
-  },
-  {
-    company: 'IBM',
-    role: 'Systems Engineer',
-    dates: '2011 — 14',
-    badge: null,
-  },
-]
-
-const PROJECTS = [
-  {
-    name: 'h3-go',
-    desc: 'hexagonal geospatial indexing',
-    href: 'https://github.com/uber/h3-go',
-  },
-  {
-    name: 'slashtable',
-    desc: 'slash command platform',
-    href: 'https://github.com/jogly/slashtable-web',
-  },
-  {
-    name: 'oar',
-    desc: 'oauth2 callback re-router',
-    href: 'https://github.com/jogly/oar',
-  },
-  {
-    name: 'gofig',
-    desc: 'composable config for go',
-    href: 'https://github.com/jogly/gofig',
-  },
-  {
-    name: 'mktoast',
-    desc: 'toast notification toolkit',
-    href: 'https://github.com/jogly/mktoast-web',
-  },
-]
+import { WORK, PROJECTS } from '../data'
+import { VariationNav } from '../components/VariationNav'
 
 export function Home() {
   return (
@@ -110,6 +52,7 @@ export function Home() {
                     {w.badge && <span className="entry-badge">{w.badge}</span>}
                   </div>
                   <div className="entry-role">{w.role}</div>
+                  <p className="entry-blurb">{w.blurb}</p>
                 </div>
                 <span className="entry-dates">{w.dates}</span>
               </div>
@@ -124,13 +67,7 @@ export function Home() {
           </div>
           <div>
             {PROJECTS.map((p, i) => (
-              <a
-                className="project"
-                key={p.name}
-                href={p.href}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a className="project" key={p.name} href={p.href} target="_blank" rel="noopener noreferrer">
                 <span className="project-idx">{String(i + 1).padStart(2, '0')}</span>
                 <span className="project-name">{p.name}</span>
                 <span className="project-desc">{p.desc}</span>
@@ -147,31 +84,15 @@ export function Home() {
           <div className="connect">
             <div className="connect-row">
               <span className="connect-key">Email</span>
-              <a className="connect-val" href="mailto:joe.gilley@gmail.com">
-                joe.gilley@gmail.com
-              </a>
+              <a className="connect-val" href="mailto:joe.gilley@gmail.com">joe.gilley@gmail.com</a>
             </div>
             <div className="connect-row">
               <span className="connect-key">GitHub</span>
-              <a
-                className="connect-val"
-                href="https://github.com/jogly"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github.com/jogly
-              </a>
+              <a className="connect-val" href="https://github.com/jogly" target="_blank" rel="noopener noreferrer">github.com/jogly</a>
             </div>
             <div className="connect-row">
               <span className="connect-key">LinkedIn</span>
-              <a
-                className="connect-val"
-                href="https://linkedin.com/in/jogly"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                linkedin.com/in/jogly
-              </a>
+              <a className="connect-val" href="https://linkedin.com/in/jogly" target="_blank" rel="noopener noreferrer">linkedin.com/in/jogly</a>
             </div>
           </div>
         </section>
@@ -181,6 +102,7 @@ export function Home() {
         <span>Joseph Gilley</span>
         <span>© {new Date().getFullYear()}</span>
       </footer>
+      <VariationNav />
     </div>
   )
 }

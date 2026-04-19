@@ -1,0 +1,234 @@
+.v-ramp {
+  --bg:     #F7F4ED;
+  --ink:    #0C0A07;
+  --mid:    #5C554D;
+  --dim:    #B0A697;
+  --hair:   #DDD4C2;
+  --accent: #BF3E22;
+  --fd: 'Fraunces', Georgia, serif;
+  --fm: 'DM Mono', monospace;
+
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--fm);
+  font-size: 12.5px;
+  line-height: 1.7;
+}
+
+.v-ramp * { box-sizing: border-box; }
+
+.v-ramp .wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2.5rem 2.25rem 8rem;
+}
+
+.v-ramp .top {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: baseline;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 1rem;
+  font-size: 0.55rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--mid);
+}
+.v-ramp .top-c { text-align: center; color: var(--ink); }
+.v-ramp .top-r { text-align: right; color: var(--dim); }
+
+/* ── The ramp ──────────────────── */
+
+.v-ramp .ramp-row {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 2rem;
+  align-items: baseline;
+  padding: 1.25rem 0;
+  border-bottom: 1px dotted var(--hair);
+}
+
+.v-ramp .ramp-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.5rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mid);
+  padding-top: 0.4rem;
+}
+.v-ramp .ramp-pt { color: var(--ink); font-size: 0.65rem; letter-spacing: 0.1em; }
+.v-ramp .ramp-axis { color: var(--dim); font-size: 0.48rem; }
+.v-ramp .ramp-axis.accent { color: var(--accent); }
+
+.v-ramp .ramp-sample {
+  font-family: var(--fd);
+  color: var(--ink);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.v-ramp .r-240 {
+  font-weight: 300;
+  font-style: italic;
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 144, 'WONK' 1;
+  font-size: clamp(5rem, 17vw, 15rem);
+  line-height: 0.82;
+}
+
+.v-ramp .r-144 {
+  font-weight: 700;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 144, 'WONK' 0;
+  font-size: clamp(3.5rem, 10vw, 8.5rem);
+  line-height: 0.88;
+  letter-spacing: -0.025em;
+}
+
+.v-ramp .r-96 {
+  font-weight: 400;
+  font-style: italic;
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 96, 'WONK' 1, 'SOFT' 100;
+  font-size: clamp(2.5rem, 6.5vw, 5.5rem);
+  color: var(--accent);
+  line-height: 0.92;
+}
+
+.v-ramp .r-48 {
+  font-weight: 300;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 30;
+  font-size: clamp(1.6rem, 3.5vw, 2.8rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+.v-ramp .r-24 {
+  font-weight: 500;
+  font-style: italic;
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 14, 'WONK' 0;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: var(--mid);
+}
+
+.v-ramp .r-12 {
+  font-family: var(--fm);
+  font-size: 0.72rem;
+  color: var(--dim);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* ── Lower body: narrow measure ─── */
+
+.v-ramp .body {
+  max-width: 640px;
+  margin: 5rem 0 0;
+  padding-top: 4rem;
+  border-top: 1px solid var(--ink);
+}
+
+.v-ramp .lede {
+  font-family: var(--fd);
+  font-style: italic;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 36, 'WONK' 1;
+  font-size: 1.6rem;
+  line-height: 1.35;
+  color: var(--ink);
+  margin-bottom: 2rem;
+}
+.v-ramp .lede em { color: var(--accent); font-style: italic; }
+
+.v-ramp .body-p {
+  font-family: var(--fm);
+  font-size: 0.78rem;
+  line-height: 1.9;
+  color: var(--mid);
+  margin-bottom: 4rem;
+  max-width: 54ch;
+}
+.v-ramp .body-p strong { color: var(--ink); font-weight: 500; }
+
+.v-ramp .sec { margin-bottom: 4rem; }
+
+.v-ramp .sec-h {
+  display: grid;
+  grid-template-columns: 3rem 1fr auto;
+  align-items: baseline;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 1.25rem;
+}
+.v-ramp .sec-num, .v-ramp .sec-unit {
+  font-size: 0.5rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--mid);
+}
+.v-ramp .sec-title {
+  font-family: var(--fd);
+  font-style: italic;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 30, 'WONK' 1;
+  font-size: 1.65rem;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.v-ramp .entry {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.25rem 1.5rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px dotted var(--hair);
+}
+.v-ramp .entry-co { font-size: 0.78rem; color: var(--ink); display: flex; gap: 0.55rem; flex-wrap: wrap; }
+.v-ramp .entry-badge {
+  font-size: 0.45rem; letter-spacing: 0.14em; color: var(--accent);
+  border: 1px solid var(--accent); padding: 0.1em 0.4em; line-height: 1.7;
+}
+.v-ramp .entry-role {
+  font-family: var(--fd); font-style: italic;
+  font-optical-sizing: auto; font-variation-settings: 'opsz' 14, 'WONK' 1;
+  font-size: 0.95rem; color: var(--mid);
+}
+.v-ramp .entry-blurb {
+  font-size: 0.66rem; line-height: 1.8; color: var(--mid); max-width: 50ch; margin-top: 0.4rem;
+}
+.v-ramp .entry-dates { font-size: 0.55rem; color: var(--mid); letter-spacing: 0.08em; padding-top: 0.3rem; white-space: nowrap; }
+
+.v-ramp .project {
+  display: grid; grid-template-columns: 1.75rem 1fr auto; gap: 0 1rem;
+  padding: 0.85rem 0; border-bottom: 1px dotted var(--hair);
+  align-items: baseline; text-decoration: none; color: inherit;
+}
+.v-ramp .project:hover .project-name { color: var(--accent); }
+.v-ramp .project-idx { font-size: 0.5rem; color: var(--mid); }
+.v-ramp .project-name { font-size: 0.78rem; color: var(--ink); transition: color 0.12s; }
+.v-ramp .project-desc { font-family: var(--fd); font-style: italic; font-size: 0.88rem; color: var(--mid); text-align: right; }
+
+.v-ramp .connect { display: flex; flex-direction: column; gap: 0.75rem; }
+.v-ramp .connect-row { display: grid; grid-template-columns: 5rem 1fr; gap: 1rem; align-items: baseline; }
+.v-ramp .connect-k { font-size: 0.5rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mid); }
+.v-ramp .connect-v { font-size: 0.72rem; color: var(--ink); text-decoration: none; }
+.v-ramp .connect-v:hover { color: var(--accent); }
+
+@media (max-width: 760px) {
+  .v-ramp .ramp-row { grid-template-columns: 1fr; gap: 0.5rem; }
+  .v-ramp .ramp-meta { flex-direction: row; gap: 0.75rem; flex-wrap: wrap; }
+}

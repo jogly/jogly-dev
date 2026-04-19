@@ -313,7 +313,6 @@ export function CityStage({ lat, lng, address }: Props) {
 					preserveAspectRatio="xMidYMid meet"
 					style={
 						{
-							// @ts-expect-error CSS custom property
 							"--tilt": `${tiltDeg}deg`,
 						} as React.CSSProperties
 					}

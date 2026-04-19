@@ -48,12 +48,3 @@ export const PROJECTS = [
   { name: 'gofig', desc: 'composable config for go', href: 'https://github.com/jogly/gofig' },
   { name: 'mktoast', desc: 'toast notification toolkit', href: 'https://github.com/jogly/mktoast-web' },
 ]
-
-export const VARIATIONS: { path: string; label: string }[] = [
-  { path: '/', label: 'current' },
-  { path: '/specimen', label: 'specimen' },
-  { path: '/margin', label: 'margin' },
-  { path: '/watermark', label: 'watermark' },
-  { path: '/ramp', label: 'ramp' },
-  { path: '/anchor', label: 'anchor' },
-]

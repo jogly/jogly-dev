@@ -233,6 +233,7 @@ test("stages deterministic, metadata-free masters without changing sources", asy
 		create: { width: 800, height: 600, channels: 3, background: "#ad341f" },
 	})
 		.jpeg()
+		.withExif({ IFD2: { ExposureTime: "1/250", FNumber: "56/10", ISOSpeedRatings: "200", FocalLength: "17/1", BodySerialNumber: "private-serial" } })
 		.withMetadata({ orientation: 6 })
 		.toFile(join(source, "B.JPG"));
 	await sharp({
@@ -258,6 +259,10 @@ test("stages deterministic, metadata-free masters without changing sources", asy
 	expect(first.manifest.images.every((image) => image.width <= 256)).toBe(true);
 	expect(first.manifest.images.every((image) => image.height <= 256)).toBe(true);
 	const rotated = first.report.images.find((image) => image.sourceFile === "B.JPG");
+	expect(first.manifest.images.find((image) => image.id === rotated!.id)?.shot).toEqual({
+		focalLengthMm: 17, aperture: 5.6, exposureSeconds: 1 / 250, iso: 200,
+	});
+	expect(JSON.stringify(first.manifest)).not.toContain("private-serial");
 	expect(rotated?.inputOrientation).toBe(6);
 	expect([rotated?.width, rotated?.height]).toEqual([192, 256]);
 	const p3Source = await sharp(join(source, "a.jpeg")).metadata();

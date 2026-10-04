@@ -21,6 +21,7 @@ import {
 import { closeAfterPhotoTransition } from "../lib/photoTransition";
 import { reflectionBlend } from "../lib/photoReflection";
 import { PhotoRail } from "./PhotoRail";
+import { formatPhotoShot } from "../lib/photoShot";
 
 type PhotoPictureProps = {
 	photo: GalleryPhoto;
@@ -76,7 +77,10 @@ function ZoomedPhoto({ photo, previewSrc, flightRef, active }: {
 	flightRef?: RefObject<HTMLDivElement | null>;
 	active: boolean;
 }) {
+	// Keep the decoded preview unchanged as this slide becomes active/inactive.
+	const [stablePreview] = useState(previewSrc);
 	const [loaded, setLoaded] = useState(false);
+	const shot = formatPhotoShot(photo.shot);
 	return (
 		<div className="photo-dialog-image-wrap">
 			<div
@@ -90,18 +94,19 @@ function ZoomedPhoto({ photo, previewSrc, flightRef, active }: {
 				<div className="photo-image-layer" aria-hidden="true">
 					<img
 						draggable={false}
-						src={previewSrc}
+						src={stablePreview}
+						decoding="sync"
 						width={photo.width}
 						height={photo.height}
 						alt=""
 						className="photo-dialog-image"
 					/>
 				</div>
-				{active && <div className={`photo-image-layer photo-image-full${loaded ? " is-loaded" : ""}`}>
+				{(active || loaded) && <div className={`photo-image-layer photo-image-full${loaded ? " is-loaded" : ""}`}>
 					<PhotoPicture
 						photo={photo}
 						alt={photo.alt}
-						sizes={`${photo.width}px`}
+						sizes={`min(calc(100vw - 2rem), calc((100dvh - 200px) * ${photo.width / photo.height}))`}
 						eager
 						className="photo-dialog-image"
 						onLoad={async (event) => {
@@ -115,6 +120,7 @@ function ZoomedPhoto({ photo, previewSrc, flightRef, active }: {
 						}}
 					/>
 				</div>}
+				{shot && <p className="photo-shot" aria-label={`Shot settings: ${shot}`}>{shot}</p>}
 			</div>
 		</div>
 	);
@@ -245,7 +251,8 @@ export function PhotoGallery({
 				for (let i = 0; i < reflectionLayers.length; i++) {
 					const layer = reflectionLayers[i];
 					if (from !== previousFrom) layer.style.setProperty("--edge-reflection", `url("${photos[i % 2 ? to : from].blurSrc}")`);
-					layer.style.opacity = String(i % 2 ? mix : 1 - mix);
+					// The opaque base prevents a brightness dip halfway through the blend.
+					layer.style.opacity = String(i % 2 ? mix : 1);
 				}
 				previousFrom = from;
 			};
@@ -319,9 +326,9 @@ export function PhotoGallery({
 			void flight.offsetWidth;
 			flight.style.removeProperty("transition");
 		}
-		const thumbnail = streamRef.current!.children[selectedIndex!].querySelector("img")!;
-		flight.style.transform = transformToThumbnail(flight, thumbnail.getBoundingClientRect());
-		void closeAfterPhotoTransition(dialog, flight);
+		const thumbnail = streamRef.current!.children[selectedIndex!].querySelector("button")!;
+		flight.style.transform = transformToThumbnail(flight, thumbnail.querySelector("img")!.getBoundingClientRect());
+		void closeAfterPhotoTransition(dialog, flight, () => thumbnail.classList.remove("is-zoomed"));
 	}
 
 	function handleClosed() {

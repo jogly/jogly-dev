@@ -27,6 +27,7 @@ import {
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import exifr from "exifr";
+import type { PhotoShot } from "../src/lib/photoShot";
 import sharp from "sharp";
 
 const execFileAsync = promisify(execFile);
@@ -47,6 +48,7 @@ export type ImportOptions = {
 };
 
 type RawMetadata = {
+	shot: PhotoShot;
 	captureLocal: string | null;
 	captureOffset: string | null;
 	make: string | null;
@@ -84,6 +86,7 @@ type ProcessedPhoto = {
 };
 
 type PublicImage = {
+	shot?: PhotoShot;
 	order: number;
 	id: string;
 	key: string;
@@ -471,6 +474,10 @@ async function readRawMetadata(path: string): Promise<RawMetadata> {
 				"Orientation",
 				"Make",
 				"Model",
+				"ExposureTime",
+				"FNumber",
+				"ISO",
+				"FocalLength",
 			],
 			translateValues: false,
 			reviveValues: false,
@@ -491,7 +498,17 @@ async function readRawMetadata(path: string): Promise<RawMetadata> {
 		gpsPresent = false;
 	}
 
+	const positive = (key: string) => {
+		const value = optionalNumber(metadata, key);
+		return value !== null && value > 0 ? value : undefined;
+	};
 	return {
+		shot: {
+			focalLengthMm: positive("FocalLength"),
+			aperture: positive("FNumber"),
+			exposureSeconds: positive("ExposureTime"),
+			iso: positive("ISO"),
+		},
 		captureLocal: optionalString(metadata, "DateTimeOriginal"),
 		captureOffset: optionalString(metadata, "OffsetTimeOriginal"),
 		make: optionalString(metadata, "Make"),
@@ -992,6 +1009,7 @@ export async function importAlbum(
 					height: photo.height,
 					alt: previous?.alt ?? "",
 					caption: previous?.caption ?? "",
+					shot: photo.metadata.shot,
 				};
 			}),
 		};

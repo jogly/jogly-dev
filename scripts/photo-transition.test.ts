@@ -12,16 +12,22 @@ function dialogDouble() {
 	return { dialog: dialog as unknown as HTMLDialogElement, classes };
 }
 
-test("close helper waits for the supplied animation to finish", async () => {
+test("closing restores the gallery image before removing the dialog, after the return flight", async () => {
 	const { dialog } = dialogDouble();
 	const animation = Promise.withResolvers<void>();
 	const flight = { getAnimations: () => [{ finished: animation.promise }] } as unknown as HTMLElement;
-	const closing = closeAfterPhotoTransition(dialog, flight);
+	let restored = false;
+	const closing = closeAfterPhotoTransition(dialog, flight, () => {
+		expect(dialog.open).toBe(true);
+		restored = true;
+	});
 	await Promise.resolve();
 	expect(dialog.open).toBe(true);
+	expect(restored).toBe(false);
 	animation.resolve();
 	await closing;
 	expect(dialog.open).toBe(false);
+	expect(restored).toBe(true);
 });
 
 test("a cancelled close cannot close the dialog while a replacement animation is pending", async () => {
@@ -30,11 +36,11 @@ test("a cancelled close cannot close the dialog while a replacement animation is
 	const last = Promise.withResolvers<void>();
 	const firstClose = closeAfterPhotoTransition(dialog, {
 		getAnimations: () => [{ finished: first.promise }],
-	} as unknown as HTMLElement);
+	} as unknown as HTMLElement, () => { throw new Error("Cancelled close restored the thumbnail"); });
 	first.reject(new DOMException("Reversed", "AbortError"));
 	const lastClose = closeAfterPhotoTransition(dialog, {
 		getAnimations: () => [{ finished: last.promise }],
-	} as unknown as HTMLElement);
+	} as unknown as HTMLElement, () => {});
 	await firstClose;
 	expect(dialog.open).toBe(true);
 	last.resolve();
@@ -47,7 +53,7 @@ test("close helper leaves a re-expanded dialog open when the old animation finis
 	const animation = Promise.withResolvers<void>();
 	const closing = closeAfterPhotoTransition(dialog, {
 		getAnimations: () => [{ finished: animation.promise }],
-	} as unknown as HTMLElement);
+	} as unknown as HTMLElement, () => { throw new Error("Re-expanded dialog restored the thumbnail"); });
 	animation.resolve();
 	classes.add("is-open");
 	await closing;

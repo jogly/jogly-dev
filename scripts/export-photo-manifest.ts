@@ -4,6 +4,7 @@ import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
+import type { PhotoShot } from "../src/lib/photoShot";
 
 const PROJECT_ROOT = fileURLToPath(new URL("../", import.meta.url));
 
@@ -15,6 +16,7 @@ type PublicImage = {
 	height: number;
 	alt: string;
 	caption: string;
+	shot?: PhotoShot;
 };
 
 type StageManifest = {
@@ -92,6 +94,7 @@ async function main(): Promise<void> {
 			height: image.height,
 			alt: previous?.alt || image.alt,
 			caption: previous?.caption || image.caption,
+			shot: image.shot,
 			blurSrc: await createBlurSource(join(dirname(sourcePath), "masters", `${image.id}.jpg`)),
 		});
 	}

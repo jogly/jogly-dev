@@ -29,8 +29,10 @@ The `--dry-run` flag is mandatory. Source and output paths may not overlap.
 
 - `masters/<sha256>.jpg`: auto-oriented, sRGB, metadata-free web masters.
 - `thumbnails/<sha256>.jpg`: local review thumbnails.
-- `manifest.json`: publish-safe order, dimensions, object keys, alt text, and
-  captions. It excludes source paths, devices, GPS, and capture timestamps.
+- `manifest.json`: publish-safe order, dimensions, object keys, alt text,
+  captions, and shot settings (actual focal length in mm, aperture, exposure
+  seconds, ISO). It excludes source paths, device identifiers, GPS, and capture
+  timestamps. Missing shot settings are omitted, never inferred.
 - `import-report.json`: local-only source hashes and inspection metadata.
 - `contact-sheet.jpg` and `contact-sheet.html`: labeled review sheets.
 - `.jogly-photo-stage.json`: ownership marker used to prevent accidental
@@ -60,6 +62,10 @@ The exporter writes only the publish-safe manifest into `src/content/photos/`.
 It preserves existing `title`, `dateRange`, `alt`, and `caption` values by image
 ID, so another import does not overwrite editorial work. It does not copy image
 bytes into Git.
+
+Darkroom displays the allowlisted shot settings from this JSON; image files
+remain metadata-free. To refresh settings, rerun the import and export commands
+above. Originals are only read, never edited.
 
 ## Safety and HEIC handling
 

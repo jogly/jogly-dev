@@ -1,17 +1,9 @@
 @font-face {
-	font-family: "Karla";
+	font-family: "DM Mono";
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url("@fontsource/karla/files/karla-latin-400-normal.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: "Karla";
-	font-style: normal;
-	font-weight: 500;
-	font-display: swap;
-	src: url("@fontsource/karla/files/karla-latin-500-normal.woff2") format("woff2");
+	src: url("@fontsource/dm-mono/files/dm-mono-latin-400-normal.woff2") format("woff2");
 }
 
 :root {
@@ -73,7 +65,7 @@ html.has-photo-dialog {
 	--photo-border: oklch(1 0 0 / 0.18);
 	--photo-radius: 3px;
 	--photo-gap: 1.5rem;
-	--font: "Karla", system-ui, sans-serif;
+	--font: "DM Mono", monospace;
 	--surface-shadow: 0 0 0 1px oklch(1 0 0 / 0.08);
 	--surface-shadow-hover: 0 0 0 1px oklch(1 0 0 / 0.13);
 
@@ -303,9 +295,7 @@ html.has-photo-dialog {
 }
 
 .photo-dialog button:disabled {
-	opacity: 0.35;
-	box-shadow: none;
-	border-color: var(--hair);
+	color: color-mix(in srgb, var(--ink) 35%, transparent);
 	cursor: not-allowed;
 }
 
@@ -321,7 +311,7 @@ html.has-photo-dialog {
 
 .photo-dialog-image-wrap {
 	width: 100%;
-	height: 100%;
+	height: calc(100% - 3rem);
 	min-height: 0;
 	container-type: size;
 	display: grid;
@@ -349,6 +339,7 @@ html.has-photo-dialog {
 .photo-flight {
 	position: relative;
 	border-radius: var(--photo-radius);
+	background: var(--photo-glow) center / 100% 100% no-repeat;
 	cursor: pointer;
 	width: min(100cqw, calc(100cqh * var(--photo-ratio)));
 	aspect-ratio: var(--photo-ratio);
@@ -374,6 +365,10 @@ html.has-photo-dialog {
 	opacity: 1;
 }
 
+.photo-dialog:not(.is-open) .photo-image-full {
+	opacity: 0;
+}
+
 .photo-image-layer,
 .photo-dialog-image-wrap picture {
 	display: flex;
@@ -393,13 +388,15 @@ html.has-photo-dialog {
 }
 
 .photo-dialog-header,
-.photo-dialog-actions {
+.photo-dialog-actions,
+.photo-shot {
 	opacity: 0;
 	transition: opacity 150ms ease-out;
 }
 
 .photo-dialog.is-open .photo-dialog-header,
-.photo-dialog.is-open .photo-dialog-actions {
+.photo-dialog.is-open .photo-dialog-actions,
+.photo-dialog.is-open .photo-shot {
 	opacity: 1;
 }
 
@@ -407,8 +404,24 @@ html.has-photo-dialog {
 .photo-dialog[data-static] .photo-flight,
 .photo-dialog[data-static] .photo-image-full,
 .photo-dialog[data-static] .photo-dialog-header,
+.photo-dialog[data-static] .photo-shot,
 .photo-dialog[data-static] .photo-dialog-actions {
 	transition: none;
+}
+
+.photo-shot {
+	position: absolute;
+	top: calc(100% + 0.75rem);
+	left: 50%;
+	transform: translateX(-50%);
+	width: max-content;
+	max-width: calc(100vw - 3rem);
+	margin: 0;
+	color: #85827c;
+	font: 400 0.75rem/1.5 var(--font);
+	font-variant-numeric: tabular-nums;
+	text-align: center;
+	text-wrap: balance;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -416,6 +429,7 @@ html.has-photo-dialog {
 	.photo-flight,
 	.photo-image-full,
 	.photo-dialog-header,
+	.photo-shot,
 	.photo-dialog-actions {
 		transition: none;
 	}
@@ -438,9 +452,10 @@ html.has-photo-dialog {
 	inset: -1px;
 	padding: 1px;
 	border-radius: inherit;
+	-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: xor;
 	mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
 	mask-composite: exclude;
-	mix-blend-mode: screen;
 	opacity: 0.55;
 	pointer-events: none;
 }

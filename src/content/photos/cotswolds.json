@@ -17,6 +17,12 @@
       "height": 2560,
       "alt": "Man in a red shirt seated beside a Cotswold Way stone marker.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 5.960000038146973,
+        "aperture": 1.6,
+        "exposureSeconds": 0.0026246719160104987,
+        "iso": 50
+      },
       "blurSrc": "data:image/webp;base64,UklGRjABAABXRUJQVlA4ICQBAABQBgCdASoYACAAPwFqrE6rJiQiMAgBYCAJbACdL4GmJXxrxq0WMC8ZqGvHA49rY5MDhYlBzaFpbQ8XwAD+kZCnFWbCvSlwe3Je77NUxflqBUoY/2qoFnqrhRH0MUr3q1+BY8L7QfKZapdQS/P1fN8QewzXwqJ3HSWw1WvXTOXr+2na2/b44fOIYmINzz+lhmrqoyI5GdfruKbyDB5uAbZN2/AZFoq1xV0uzIOAvFPqQDtS6dI6/ib2J0B1p3XAfm7+JLWDYnMzxz+uSFpQjKuZAc+R7nEQfLEccNfjjSHi/MSfA9e/zN0j5Td3m7Oio4q9QwlLtCfuWDGQEJcONclIycswomIHOacE54xvOdx67B+RzOu2h5IcFfv9SQC7dBnSt4AA"
     },
     {
@@ -27,6 +33,12 @@
       "height": 1738,
       "alt": "Sheep and lambs grazing beside a wooden fence.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.01,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAADQBQCdASogABYAPwFws1GrJiSiqAqpYCAJZADA3A6/QVE+o7GZYULmIn6Av/4K/XO+aLSehTxAAP7pHeIqOOQ12hCsSRhVp3D3+tuAegXKLQRAvbTv4FtFbz3m52Hyjc3YGQ80prT5eVXarU84xsYhYznIajWK7dlLjYFMaijUd2arAD3lHIA9tV+ab/t5valjwno+aSOxdt6ZeMAGT1rnBRmEG/ropAB5qgPL3+eNF1MM8LoAAA=="
     },
     {
@@ -37,6 +49,12 @@
       "height": 1920,
       "alt": "Tractor lines crossing a harvested field beneath a gray sky.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.004,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASogABgAPwForE6rJaQiMAgBYCAJYwDKACHWkaHMvuP3zmBznZCRAAD+6mvAMDjbTSFukfzrT3ch4k8z/T86HkZ1sLjSLPK/7X6c+36XMNxRW2orhlxiCa8IqDWYtqO9F7MIeZJ7HF+qCA0SPREAAA=="
     },
     {
@@ -47,6 +65,12 @@
       "height": 1920,
       "alt": "Green valley viewed over a dry-stone wall and framed by a tree.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 20,
+        "exposureSeconds": 0.01,
+        "iso": 4000
+      },
       "blurSrc": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAADwBQCdASogABgAPwF2slQrJySjKAgBYCAJYwDE32pca5HSIM0vxn3ieyQusP3CMDDVufXqSCf2AAD+7ArK7DbWiZhc8YlsoAdPbgSUMab09ul+kEWvFpLeOqBHGIn9BsPxrtBweyZzdKOqyjOK3APB5WIrSI9oDMj+SRgIftIk5kiizAJa4awbCIZqEqaw7OxLh2d5+p/2KllAcMkzqber4Ormq/hBjoiyRpI80EwXTbFWHlZNyFn/pRQd7AbdgAA="
     },
     {
@@ -57,6 +81,12 @@
       "height": 1920,
       "alt": "Lone walker crossing a rolling green pasture.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 19,
+        "aperture": 4,
+        "exposureSeconds": 0.004,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAwBQCdASogABgAPvFkq06ppaQiMAwBMB4JYwDKACHaUwPKtxNbu172IWQnmAyA3r7PAAD+5yfrdUDutM2C2sWOJdEO9uC3MVAKSyiHBp+YVSNup9vVzWJGb+FfPsUKByYaJ+Uz4C/u3IxbKZ/3QxVCv1CfVL0HI1xJ0NpVp0p5HAAA"
     },
     {
@@ -67,6 +97,12 @@
       "height": 1920,
       "alt": "Two harnessed draft horses passing a yellow car.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.0025,
+        "iso": 320
+      },
       "blurSrc": "data:image/webp;base64,UklGRjQBAABXRUJQVlA4ICgBAABwBgCdASogABgAPwFurk8rJqQiMAgBYCAJbAC7B3yoJ7WRGqmssz2k4gaNk+qsrEGCBdufBHsnEKWHqCwA/toaLGHsVweJ8IsWd5Cdv9zUzzlsBea+OElXgD6KFWa3pX6qvOevrjFWgfCxynOrzHiOE4oEsWg0q3WbHPF8P+0H0vULkvTtNVm3g3Naecxyv1BEy75icXqF68mUCDjQp47boJg2y7/V9AdxN7nBrvrkZcWgFJWviGjOliy8/Z2fhRV//cnaDqSjMt3y+9v+F+J47Tvuink813qjnSzjeoVOIMVOL0PQqZQlKT1HYC0NZgqLPJGELos82rLvZXD9S3x+Z3NwOQrupiaQn2zIvIBvyPSznoV86olaS5SAWhnz+z4q9XU5BQHgAA=="
     },
     {
@@ -77,6 +113,12 @@
       "height": 2560,
       "alt": "Twin tracks disappearing along a foggy country lane.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 28,
+        "aperture": 4,
+        "exposureSeconds": 0.0025,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBQCdASogACAAPv1uqU6rJqOiMBgMAWAfiUAY/I9t7uJyhyB8qcDEF1Gefx3Xoq+mj+AA/vzWvQNFSrZKJwXAGOb0FuGJe2z65BSYZQBV1GZXCvC5aLsPdGl4wtD6NdFDioNIv+bI1sZGKcI6pTaDg3tdLyjnQyOe0qPEM/5KoUTH5Dyk8pEle5VC+LZBa/OJL4AA"
     },
     {
@@ -87,6 +129,12 @@
       "height": 1844,
       "alt": "Sheep facing the camera from behind a wire fence.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 42,
+        "aperture": 4,
+        "exposureSeconds": 0.0025,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASogABcAPwFqqk6rJiOiMAgBYCAJYgC3uB6QD0VBpDAM4ar0zxKbYAAA/hO7zNS+6aQ53aVmMkPjIfIqEucGL4LeO6e66JlG8duy3hu850N5OQkRkd9DZUKPQAwTHK/Sgx+t9ESr4pNLmP8co1QSkFP+89iuDeIJg0IiAAAA"
     },
     {
@@ -97,6 +145,12 @@
       "height": 1920,
       "alt": "Dark green leaves on a rain-damp branch.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 13,
+        "aperture": 4,
+        "exposureSeconds": 0.0005,
+        "iso": 6400
+      },
       "blurSrc": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADQBACdASogABgAPwFysFKrJqSiqAqpYCAJQBhuARONMoT7MoSeirNplSOMoGcZPAD+7EQhuSjWIC+Tn7oeDWCVLwhoao25ZZIT00GI9wEMtJHHfs516uHkzzyLTCgl/+IkTSObLCvQ7tBd3K/v8fILPxnCdNJRk/1Vd94wJB4wxY1FO4yu0ONjUlZeBZFIkzd0QLqz9B/OCBVHM/Lj1gmEm6ZAe3AiUfyyi4AA"
     },
     {
@@ -107,6 +161,12 @@
       "height": 1920,
       "alt": "Thatched stone cottage partly hidden by greenery.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 37,
+        "aperture": 4,
+        "exposureSeconds": 0.004,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAQBQCdASogABgAPwFwsFIrJiSiqAqpYCAJQBmDhcfZaSGzCw4zngwibpV6jBmlNBFcAP64IZdQfH8pht6/k5/R0uPM7P+lXcUsPk7MZOiwk2DCBWTHVpWmMIuGyBc6fHqlAj+Rep06jhCYJSKhOfBCCnQ95whea6AiMJIRI/ZDb4DjuMskNFnUVzXp2s9c5l5UPP0nm2m2+GxXtUPNkNYwABqDsqN2nTAAAA=="
     },
     {
@@ -117,6 +177,12 @@
       "height": 1766,
       "alt": "Person standing beneath a broad old tree in an orchard.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.008,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADwBACdASogABYAPwFsrU8rJiQiMAgBYCAJQBkTVdgTdUE1jtciA6zp+RMBQJXMfgAA/tlaHj9ziDweUmV07fOUrllt5gWgjg8MnEgjAtmKe2VG8L2REtGuT9G/SuCnCr/DjfpiGt2fPKxgGhkK0vOaZoGpRkCIQ/mxL1CIdq0ojRSfziMPWeiG5bIDkhVtSHuhvD9MT+sPYHWiQlJxumiIAAA="
     },
     {
@@ -127,6 +193,12 @@
       "height": 2560,
       "alt": "Person walking a narrow path beneath overhanging trees.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.0125,
+        "iso": 400
+      },
       "blurSrc": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAABwBQCdASoYACAAPwFurlCrJiQiqA1RYCAJZACdMtplvDC6fUgbKSYBcwUmoEZqBysjjr5kAP72lqFJ0htk1G7zHlnaXzEghr4UwP21cQ/cbWdl8kdhFWhyMbjmXJN+SLF1rEVfL1itXvfPktCRTRist6l35ruO6G32eCQ04G96Dma/eMdF87o4P+yqVtFqb/reUJjLE7SyHflpblhF7GC2sFq5qAsXU0xAIxkXIGFBla3wPRiC8UJES/uXoA0aP8X1v2Ajtr+pRmJ2zoG1125BpOpoNF/lb/Ciq/en6+VcmqWMU741ahAA"
     },
     {
@@ -137,6 +209,12 @@
       "height": 2018,
       "alt": "Curving drive between pale stone walls and trees.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.00625,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAACwBQCdASogABkAPwFurE8rJqQiMAgBYCAJZAC7ABwv47VsJRH5Nlel+akKoSch+KcGy4imegAA/uv4n47wlk0oXrMc5jkRdCGYeYjudfEdPj6JJzMSnpCjbuN65xd4lv8UqMl7MAxuSVK0cn6KuydBhrklBLfSAkENJxogU8rURVKRyVriFz5W43k/RpuUN6iKuzoKTPVoH+Y7R1lFmegUFtLwFUfYzP2mHnsZGA1QJkqADrS1s3cQZG3sENjJB8Ri3Bg/fFIcYwkf/voUwnABlcLR7vZv7YyA1R/bVP4e/y05otZ0WsoZ6i5mJlnAKgAAAA=="
     },
     {
@@ -147,6 +225,12 @@
       "height": 1920,
       "alt": "Person beside an ornate honey-colored stone building.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.005,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRvwAAABXRUJQVlA4IPAAAAAwBgCdASogABgAPwFyrVCrJyQisBgIAWAgCUAQMNpCXUQjmKxoaya+U6K0jVl4a0ttti3HujQaGoYAAPwHyKx7UitPOgrwXaipUOBMQu6zQ0Xb6KfbDVycoC5KPvvHvXydYAc4q9DV4vz5NoRC8q3HOsYZLy+HQQ/zIHneyjJQe5MdJTXryiIFUPwr/aHzDvcX8uFUc+ykcGvBb5YzTuZRfo/XKe8r6FrKW752P+/HsXJyCNe/vF64bOgD1yoA/DQ0fgdBC0Z5vMdad032mRAjFHy59vM6xD/VE0ppG4X7LunSWxIkWYPkrhgEMSglnAA="
     },
     {
@@ -157,6 +241,12 @@
       "height": 1659,
       "alt": "Person walking beside a moss-covered dry-stone wall.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 25,
+        "aperture": 4,
+        "exposureSeconds": 0.016666666666666666,
+        "iso": 400
+      },
       "blurSrc": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAADQBACdASogABUAPwFqrE6rJiQiMAgBYCAJZADCoNiDFj26DnnbkuS1kponcrupRADh7NqWXiC05qGRLPdxgqIgzyk5XFQ+Je4LoST3u6WIhhDz552zHa0JGbF8+uBwrJ4YWErYLpnucB24FRUjhjklkL/ynyD25JLsRNzwBvkGUSdP7ewxN0NbITz/TPMaPNwRdgq6weF6BKTe20NgRObTY2cvGB64HcRzccQqV5mCAT+aYkQrYKyI52TtB/bXPZeTpGIHNFYnGu5P8gAAAA=="
     },
     {
@@ -167,6 +257,12 @@
       "height": 2560,
       "alt": "Person following a grassy track beside a large tree.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 12,
+        "aperture": 4,
+        "exposureSeconds": 0.0025,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAADQBQCdASoXACAAPwF4tFOrJyUiqAgBYCAJYgDKtApiQ5meU/+fssEIqH29IQC4togIOf4fDTSAAP7WIfWa+YHmfT72x+hziUcKIPoTFomktwDZGndTeyIpwKs5zny7sSMzLfIy66SaGxgxucqqgD550u8EOT/L0rrZGQSnFha6aU5zlnK2HRQLMwHRL8FVGM/k+Nvo1+eKGHmDoOuEoaAUj7+md7+W9V9jjfMzTi1sXzpBnehpzH4Hw069TeN/cf/gm5B9HChUHiMyiQkwox5ghCcAAA=="
     },
     {
@@ -177,6 +273,12 @@
       "height": 1920,
       "alt": "Patchwork fields and a distant town viewed over a stone wall.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 35,
+        "aperture": 4,
+        "exposureSeconds": 0.0015625,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBQCdASogABgAPwFqsFGrJSSisBgIAWAgCWMAv+xpXzUkjqpV5v+P7Z0bg42F2n3X2cAA/u158liCn/jsipXEGa4o+ZnC2XXjZIOy3fAGeHDbCregNIIK1UPkPZV94hVvO4arbyQV1WoSuqRgyFSXsK5YglWlwsEKIouWNXn7N5qWu04YjRCmBXK2TiYzdfGVQIukg+pYT/8TjNEQNTJ1gAA="
     },
     {
@@ -187,6 +289,12 @@
       "height": 1920,
       "alt": "Hiker with a light backpack looking across a green valley.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.0015625,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAADQBQCdASogABgAPvlkqk6qpaQiN/VYAVAfCWIAw1UgeIcPIHcZcrzCFE8OqxB6SMGLnwNg/4DgAP7qsUP8B8qJ7T2x8MD7iSDf6/xxUVHVK0EQTdB7ELZU7ZpXUsv9AT+ostp+L0ZOsHCKneQDZZnwibON6hMCJbXlAvSNfE4IKZfHfWATq5V/IKKJ7D5o/ly4KrnKanc6RXYttl0GyfM6VC9rO2vSDDg3u5BuJy7zlPfHidGCwmT+ogUY9cHP15+raMIV53VgDFCN+ri7MT7Ta081K07sfwWUftBw8KOpQqCaAAA="
     },
     {
@@ -197,6 +305,12 @@
       "height": 2560,
       "alt": "Neat rows of greenery descending a hillside.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.003125,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBQCdASoVACAAPwF0r1KrJqQiqAqpYCAJZACuLf/gFJBN4MLi951Na8Ky6LYxQukPQADeVZFjSTGOA3NY3KU4LXG2Xb/rSpAvBZ9mcwNFIJqtW5ScXI9KWVCFtBS2Ozx8np0fPxMSvc7NOBIHD+IG3DeHtAEgTZuasmXiL2lzHEm2E3zke+nAKv7Z1r3+Hq8K3sPNSt8TGGAA"
     },
     {
@@ -207,6 +321,12 @@
       "height": 1920,
       "alt": "Quiet street lined with Cotswold stone houses.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.001,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAACwBQCdASogABgAPwFyslIrJqSiqAqpYCAJQBdgMaBMtdasUHOXR8xA+YNhT8hcKWF19Uc3PQAA+/+nDKpUxgyxC7nJ4z0I/uVavvkvlUH2E/dGo2a1ODck0zmJ5OhPfGpVDI+dg04zPHLfe5708XQNXaTiikHi/9eUhdfsRzMnmND3GyBQmtx6/Dzl9RLcGWz4IywGlPQ2B1Bu/z+fPNJ2pTy+Qx9m12hbwVKB1XsfIPZpmdkDE55Hb4vaF7JoVBRrwerZ3HFjBKuqJrLHr4/fff8yYAAA"
     },
     {
@@ -217,6 +337,12 @@
       "height": 2560,
       "alt": "Narrow woodland trail beneath arching green branches.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 33,
+        "aperture": 4,
+        "exposureSeconds": 0.0125,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBgCdASoYACAAPwFwtFGrJiUiqAqpYCAJQBdmZmAvhHAqGvEknNGa4wQ4bX9T7hWMdY5bUHHvQz9AAOW0hv3w+f/YbJ+6zmqdaN+P711uQUjRXiK8u1njT9SvbIRlpU9waeRUOcxZD9dWQFDOBsf9QzGiktzKTfgz8G7kXg+lWZAj4mn1Rx4IFMlnu2SJI2I731gJR0Evrw2FVSp1JP+FnK+Bxoj3xilZWRewS/sDoUXG4A3JfAAA"
     },
     {
@@ -227,6 +353,12 @@
       "height": 1697,
       "alt": "Three sheep gathered in a bright green pasture.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 39,
+        "aperture": 4,
+        "exposureSeconds": 0.002,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACwBACdASogABUAPwFurU6rJqQiMAgBYCAJagDE2BtQu5e6wapNbdLUdMTcd3UAANnKnXXMqtucAdpwi4SYYlSN2tURohI/iNdB45W/Xt12/ajdVKICOmggVn3Wh2Lrw4wU/NRMnAW6UUW3D0sDX372oxsDpMrkixbcoEKEVDpA9AXAuiOgqpfWc0HEBIzInWauyY6BmKYRNiZ1nGfJhVDAIW0hTAAA"
     },
     {
@@ -237,6 +369,12 @@
       "height": 1583,
       "alt": "Snail crossing a damp woodland path.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.01,
+        "iso": 1000
+      },
       "blurSrc": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAwBQCdASogABQAPwFyr1CrJyQisBgIAWAgCWcAygAuoTXqGmboGo3jS23tCnGV20Gx9AD3LE1mgh4Gh6pPHHJDsfChHPuJOqCJt1HoxO10GO5aMj0siLOqK0FoeSeV6LC/qc5MW+80fJOJyeUtKKbzSCACrZaJ4vnFRRqIq7c7i21D3QmW/4Of61G4cBnqhm9mEncpKEcCiuvBjUazbWPY30OlI48Op79DlsZYAAA="
     },
     {
@@ -247,6 +385,12 @@
       "height": 1810,
       "alt": "Sunlit patchwork valley framed by tree branches.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 24,
+        "aperture": 4,
+        "exposureSeconds": 0.0015625,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRggBAABXRUJQVlA4IPwAAACwBgCdASogABcAPwF0rlArJyQisBgIAWAgCWIAsPGsHGBpg2iQt78uyFmqLTX/XhuHb/6gn5lV803R4h1nhAD90tVbMkPEBLwqvOp1KeiXqUbvtTSQ5nYqchnmDeXZPddqALjB0L/CXkxf9OoBERLcX0ZlAM+BuDEd9yVBJg98JiMYgjLb0wboDcP9E/hcu6kdgSeNhXUSwzN7tS5LqNp20YYsJ1c1wrGK8HW872E9+8rfyEECNJpvLwWWokUrwqMffytHWjaYWw9auuft1R/UDjCP66zHtdvGxczzQIU9pLwCATGIHaZY5ZpR5ldaDOYJNpioTcCYFs+FCAA="
     },
     {
@@ -257,6 +401,12 @@
       "height": 2560,
       "alt": "Hillside view over fields and a town below.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.008,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4IPgAAAAQBgCdASoYACAAPwFor1GrJSQisBgIAWAgCUAZmoECPlN6THPI39D1YyKYkXjQqiQ5pxFcvhww2OAA/TZC/T/2M0FZhekrL6D3C2TDARPMeM5r1T5Uce4LAQMqHoe3Jcy7nQiU/6cupXryhKw/SHM4c0inDHYWmFh9l1E5BMddTKqqgKj6hcNg+iJ9nmpLHKSaxRe6ZkAvc/v4VF3fUCHrjhiOdFYlQ3kGqVDZXd+klK2gbUeUisHRzOj9KgcaP5R32NCZV211w3WXrmb+ZGa4yXKjhtG8MwKb2BNlG5dZOuZFlgw/cQ4i3SJVAaghP+flwNFurcAAAA=="
     },
     {
@@ -267,6 +417,12 @@
       "height": 1920,
       "alt": "Sculpted topiary trees among stone markers in a churchyard.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 17,
+        "aperture": 4,
+        "exposureSeconds": 0.003125,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAACwBQCdASogABgAPwFqrE6rJiQiMAgBYCAJYgDA7f/gPfsfDJ1rHaUeq75nfhCZHTxax+yPkIAA/mV8RSo/p4OwtBG6aLhHkfDWqYvMGHhTgpx7D/nM+R4ucqQ7o8iHHYrJzh5ISn5FFCou0Lr9jWBEg+E4BIPV+r1YKtMQ5h3SHXoHqLbL0Pa6xR5ltfYRkQ8nWW7s/VuDT0wNciG6U+hVwpgq1B/mlBwkS+iI2OJdQPnz4uk4FPGWaBcD0xFUtAHAIjrDjincMoyvt3g1iFpJ/La5OdDgo4RtfgAA"
     },
     {
@@ -277,6 +433,12 @@
       "height": 1920,
       "alt": "Weathered stone structure on a wooded hillside.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 25,
+        "aperture": 4,
+        "exposureSeconds": 0.005,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAADwBQCdASogABgAPwFqq06rJiOiMAgBYCAJQBkZXlcM2QkJFs2epsHu+dijwqVROS30KVqZxFzfAAD9/F+EUis7crgegecYziV7altt2Yx/+IblLAiYrrGi5Bc6UmDbR1pfTnXMbyWa9LB/pYiIZenDZiQgN+MoiMtCckdh44OvUN0QxJEoVn4wfNnIPYspt9KVADyGxVlHypdkYBMSLcnNS55Co+nT8UwDwdcgOr4NSboZcyLYhrBnMTSLanMemWrahElybNqa0w8q7VJC61daZTJBd3CpmVQ9gD310p+1wXdMMBljgV84AwnNzbRAbtAAAA=="
     },
     {
@@ -287,6 +449,12 @@
       "height": 1920,
       "alt": "Person following a grassy hillside path beneath a spreading tree.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.0008,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAACQBQCdASogABgAPwFurU8rJqQiMAgBYCAJQAHQ5Few6Ogt2bTa0CTqlHxrDBEIaWbcl12CgAD+6y45VzGXNmBvUo4s/5RORkyHdqj5Q3ktk9EUB5sTWhXABbVha21hA4/0XoiPYI8/bHi7uqeOTzTbDN7W2zoRQoAlc0dDp0/85YWYsJfy8fb7UsxFXXXoS7HLGs1KwYgwi43zsxjG2myOsRtgCSM4knp0BtBmV+QcKG1NlaKlB/oawbfOfKhoNjK8SRS48/BIgqzBJPtxTAAA"
     },
     {
@@ -297,6 +465,12 @@
       "height": 2560,
       "alt": "Sunlit path through a tunnel of green woodland.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.0125,
+        "iso": 2000
+      },
       "blurSrc": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAACQBQCdASoYACAAPwFysVIrJqSiqAqpYCAJaACsMxipBM+oP8M8rW5yb0+sWRyZCVKbCQvZ4ADRR3tQ3AbErlnDDWVip6iMw5pa01xRwMxuz52n4/wr6ftUnMAjrGw6Ve3sjMfaCRFQCon+XGfmtEU0y/yZfN23e3ji3kMQGFYq3rWClq+drZ+jHE0DK7Og/Xsd1d7hcEjbc1fVYO+kC3THHvPrDvRJXRCLIc1AVHVU7KRNebo111gNEDnuB97aE9PXCn0GBND0QDcX2nCeEC0aRomaNwPyiMoxA9AA"
     },
     {
@@ -307,6 +481,12 @@
       "height": 2560,
       "alt": "Narrow wooden footbridge running through dense trees.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 21,
+        "aperture": 4,
+        "exposureSeconds": 0.016666666666666666,
+        "iso": 400
+      },
       "blurSrc": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADwBACdASoSACAAPwF0sVOrJqQiqAgBYCAJZgDCgA5V0ZlGxN+M7ZFVGMfjqeiKlAAA/Iph4CkLpjWF2JE28amlAtwk3ZYMqUw16bNp4YHpJ1sEEX/4zkh9bwbfCOTNH+aNBHtpUwP5mYSyXOYA6juhD34Q/1nRLJTZZD4SrjFgigdnRE6ihGr43oQC464r6ALEXvl+heDDNbT3o2woSqLnMvSavMPVGyFdqJJNRb+kwAAA"
     },
     {
@@ -317,6 +497,12 @@
       "height": 1920,
       "alt": "Walker on a path through a deep green woodland ravine.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 12,
+        "aperture": 4.5,
+        "exposureSeconds": 0.016666666666666666,
+        "iso": 2500
+      },
       "blurSrc": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBQCdASogABgAPwFyrVCrJyQisBgIAWAgCUAVHrE2SIEnnl4DjuaybZuBUiq4xzLqELTv/YAA/uz/hEmr3TdpzpWMvhaFugLd7eJJ4XKE6UqniezXa2SwdXezKW3x6QBgwjEYOVLSGrQI4Ql3UVnHJodqUvj5DEGXjg8I4clUNVAbWMUJetKmpHoatIQ/Z2U03oJlWAAAAA=="
     },
     {
@@ -327,6 +513,12 @@
       "height": 2560,
       "alt": "Pale limestone face rising between trees.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 27,
+        "aperture": 4,
+        "exposureSeconds": 0.016666666666666666,
+        "iso": 400
+      },
       "blurSrc": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAACQBQCdASoYACAAPwFyr1ArJyQisBgIAWAgCWMAxkQIAJlebxW2Je+sYZyhqh5fiD9T+pzFIAD9oMf20muDjWz+Xn35+39stb34DCs0GUzy0gk/jdU3farpJye1mMjE1GPP1vp94PIXtjfPOhThHca6078APAn/qwOWFPcdFrNz5qgXs7zttcN7+Zhoif9k1ppuf9xBQWd1APwuU3GFOHd1uMVXhJBC1iTPKPQG+XMfjYc7x6elFuYANog3plPQB30yU2ztbJ2+DjuNdZv86lN/+lwAAA=="
     },
     {
@@ -337,6 +529,12 @@
       "height": 2560,
       "alt": "Pastoral view across hedges to fields and a wooded hill.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.002,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAADQBQCdASoYACAAPwFyrlArJyQisBgIAWAgCWQAqPcyaqakuQ/dnSBM8G2EfMUYqkD1M7+g2NwAAP7TUpP2Zdem+r88LV8OxU7dTb1iMfdKtp2ffLwSyYUAD6VImPrjYVB0C5CToRdywhnHC8tsI5b9OOFV3hzOvwO+/2FJg6pA8DvydLnFxDcewS/+Z5ZZDVQthZWQ20GgUxhS5AD6K27+SIwPcFKySvzWKQwo3uKJSiIqY/cWQYhWT/mG7oB4OGw8t78u/PSEOps95FGnCHWk55+XGW8eqa/C5gAA"
     },
     {
@@ -347,6 +545,12 @@
       "height": 2560,
       "alt": "Black cow standing on a hillside above the valley.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.00625,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAADwBACdASoVACAAPwFsrU8rJiQiMAgBYCAJYgCdM0xDTZ1MueY6PbLRpuyjbkCHjgAA/IwHhOGDK2Q2FOKWDdltUV1GYDuBYdjQqd6H0CRih3sEQaztHZ/MGcpv5oLIUpv3odwuseRvuUrx1yWiZhjJUfRWcAiubKKsVXAXHg4pPf83uPjr1m9XeQm6ACokCBsPrUUA7EGLJzouNHQiiQAA"
     },
     {
@@ -357,6 +561,12 @@
       "height": 1783,
       "alt": "Sheep scattered across a vivid green hillside.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 23,
+        "aperture": 4,
+        "exposureSeconds": 0.002,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASogABYAPwFqq06rJiOiMAgBYCAJYgC90CHw4/EURV0AYaadCf75fT/8BZkCAAD9U8+ZPGPwgF5quDVVLqP2kEjKBh5ExdoEZJgWevX9mbdlBFpyL9fsiDa5svTYRY9ep42ScyUJHVjq/K5kioQ7nmpC+dvz/76fweYHN+3eECuqXoEpjc1NP52uMDFe/+gA"
     },
     {
@@ -367,6 +577,12 @@
       "height": 2560,
       "alt": "Muddy lane beneath a canopy of arching beech trees.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 39,
+        "aperture": 4,
+        "exposureSeconds": 0.0125,
+        "iso": 1000
+      },
       "blurSrc": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABwBQCdASoYACAAPwForE6rJiQiMAgBYCAJQBdmW+SuKL1nYkwIOmoA3BRX40NsAn3lBUAAAP4j7vIY8JABGoIfr8Lkf2lfO7bxkrziu43CVQBLi19B7IdoHUnJPR/CGNzKwVHXKTL5SE+oPIuLeLrFTpQRC5VxmAbdP3E9wG4b4xLELdx8X5GEhD1edrcDhNxAiMEGLMnQxJjUYeDrBpz7DncIW7yUbuQHmD4+t6FHvdMBEbiPmDvLIgAAAA=="
     },
     {
@@ -377,6 +593,12 @@
       "height": 1920,
       "alt": "Cluster of smooth tree trunks and exposed roots in woodland.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 37,
+        "aperture": 4,
+        "exposureSeconds": 0.016666666666666666,
+        "iso": 1000
+      },
       "blurSrc": "data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAACQBQCdASogABgAPwFqrE6rJiQiMAgBYCAJQBdg3gar0fAH2Bffd+exgCow6qzvqKGKK3yODAD9JHsRfW6b2i7Q4G2N2M0JjDuWFtIiT5/2BGlPglHFLn4sd7lokZ1ExDP7K6iXD0IlSRdsOZ//O5prmHGI+BzVZkPcrCLgi4EYO+PTMKcsao0V6eMDNlaUVXhFKiSdUvNyVdUKu1uvNxmKC28sQyNl8yL32Ijtscsqgz3yctmP8XoCx98zhRJzS+tOZ5TQB+pMoCdMggGchF1VC4LtCVZx7mTpwNixt/wWAA=="
     },
     {
@@ -387,6 +609,12 @@
       "height": 2326,
       "alt": "Windswept pine trees overlooking a distant town.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 28,
+        "aperture": 4,
+        "exposureSeconds": 0.0012499999720602967,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAAAwBgCdASogAB0APwF4s1OrJySiqAgBYCAJYgDGCawlGYj2tMIWBMBiajFmemFdH7+dA8OoMgxDESuAAP7TSGNnH4IJvrgxWl7baMlfK4ARLgTNTubwln6TerkoqNZ9DW5lEYsS/H6Yv4RTOVOxItzF5MD29vZnc4oKPh/BMcTIO5hZDj8GWL/hrYREDH6Vmv0rZI7DUbHF4sWaohm2TI4EUSb7Q2+ISpZI/5PCNnaYZYIkgzMgD9qmwu6Qd+2v+OPe7Y48nVYJzER9/UvzEkyODZeJDdXPkaVuHuvybBd7jJp/Wj47QEv0m6T+YsurqYm5Je97bkVjOyp60r6N0mH35U1ThjAA"
     },
     {
@@ -397,6 +625,12 @@
       "height": 1920,
       "alt": "Shaggy horned cow facing the camera on a wooded path.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.008,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRgwBAABXRUJQVlA4IAABAACwBgCdASogABgAPwForE8rJaQiMAgBYCAJYwC07a9cYGmDaNGCslwdY6ZH/AIvJ5IdlBFemp8nGWizLJ2uAADiaqFTuVVoG1CssGcS+46XH2lxeJvu+RS9NLUF7/MexPd5oAblYy6ZgHzdSd5m0Lc3Txvydw3pdL1QsZNDvoEhVqiOYGPqAzn8jcV3ObJ7XSMiuIEV/ypj08SGAfij0QOgFfC+sqxu7t+OX36MUX87SaVOgytjjLjfWkIPosYe7i7eNyPDFkEtx6EyD5TGJyJ5mAygFG7kLb0IXXnvDH9opXom1hDLSFBOtGSN/FaUPXVyiRbTEZyt9OC7czCiCwAA"
     },
     {
@@ -407,6 +641,12 @@
       "height": 2073,
       "alt": "Longhorn cattle and a calf grazing beneath a tree.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.00625,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAADwBQCdASogABoAPwForE6rJaQiMAgBYCAJQBdgZi0N4XHeuVA8DHnKd0l7g5ketbF72Ab7pEDCiAD2WEHcfJ2lV2eA8iZjgMwuwp4w1/r3LcCMXtZEs/go+hC91DKRjYuQFAwhQSmrfZ8Rbx61FVo3TxtYcYZfO2Zz9WbZP8goEtDKd7EfskBLzyHaNwVC16xdmkL9hXn5ld/VIDdB4RDpgHmbOrrWdI6CQROlZ+XL+BXV1nswOGyzbUZ9u6Fdbvtx269GERPDdmNLrAO7VdjmkVsEFCjn9K97t8425uyV4yvkf7JYDDy9fPE9jhJtAc3SV55QAAA="
     },
     {
@@ -417,6 +657,12 @@
       "height": 1920,
       "alt": "Cattle standing together in a shallow river.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 30,
+        "aperture": 4,
+        "exposureSeconds": 0.016666666666666666,
+        "iso": 250
+      },
       "blurSrc": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAACwBQCdASogABgAPwFurU8rJqQiMAgBYCAJaAC7ABMucznfeyAtRIjfbmqULLqHeE9cnBxpgKAA/rN1tgrWIC3gZWEwUmrvIxc/A59RfIh0sHixt8jEwYVCmSyegOyOhHH9uL6b0/S49T+UA6bKQjGAeqtK6gO67gYzAZDcFDXDvpxgMQ3oMZIinNMZ3kJH5EViU7pps3uEpnRhaRR54escEd22F/gKs3vd99hUvLOJ3sMahCDGWpYee18DZBkNZrfxxErPD2OfKPsbYL/basDK2A22rq6knCaErPXyV9vcB+nW8AA="
     },
     {
@@ -427,6 +673,12 @@
       "height": 2560,
       "alt": "Tall clipped hedge shaped like a face.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4,
+        "exposureSeconds": 0.003125,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABwBQCdASoWACAAPwFyrFCrJyQisBgIAWAgCWUAuDANDKyISQxNvyqydBtpTDKuI/7aVTQAAP7t4YS7KV6r/3lkPmOC0PgIqORm1AMl3p7meIvrLYwJodSCu1UQOKLa1gbP4TIaNLvEUUShYKf9PJvzuKGhkSYv2V04t6Q7AwRB9VfMxwgz1FiO2nDnIG8Pl8O/cCF6vTfui9wgAAA="
     },
     {
@@ -437,6 +689,12 @@
       "height": 1920,
       "alt": "Formal garden lawn and reflecting canal viewed from a stone terrace.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 12,
+        "aperture": 4,
+        "exposureSeconds": 0.004,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAAAQBgCdASogABgAPwFsrE6rJiQiMAgBYCAJZgCB7TvK7eWAE26Nr34hVjX8du4qiEZbiBrB0ckMPjAA/p9B0KiBf0imc8Q+ui1WepsGezpa4SClL63b8zOb0cUMpvastcPlSzD9cLRckKrBuO8kFDWmH86wrKLMGA/1xx4zdgs/XVGDhCoJ4xlgNv0eE9Cboz3Z8dSlsUgK/welbTGYV5xj/N/ez7fQUMtI6MTmAnwIhZyXxgyrULaeL5nasRHNZ4puyLIi3iFrfmx9mA7V+9h25vXeKvSTBBsqGKy1gtxiC4tseYaYMNuQAAA="
     },
     {
@@ -447,6 +705,12 @@
       "height": 1920,
       "alt": "Wooden Cotswold Way trail sign among trees.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 24,
+        "aperture": 4.5,
+        "exposureSeconds": 0.016666666666666666,
+        "iso": 1000
+      },
       "blurSrc": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAAAwBQCdASogABgAPwFqrU8rJiQiMAgBYCAJZQDDObFA4BoLXue52XRHoLiO331yWqFyAAD4WNfdHwf/Z9rzKaupUqqVKMIKsVUPWl6YxOseSqx9QEwX24kScXrl6W5QrdTOFaTXZ5VEcyEiMWAoUPiG2osIAv8jHKdAelnbsBBgqFozWjnnMer2a2OVA9FVk4isJQBi6b5ZNA7tATYUQTDE6jVgMG9eE0YKTeYSbsNzVwm4knRWJ9YYPSW8CkAA"
     },
     {
@@ -457,6 +721,12 @@
       "height": 1920,
       "alt": "Country house at the end of a long formal garden avenue.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4.5,
+        "exposureSeconds": 0.004,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACQBQCdASogABgAPwFwsVIrJiSiqAqpYCAJQBAAGkRGIufqkfYLrmRPlSvKmbqM1YX2pSQNgAD+mpIQDEHlpMsJRo4/2R4qAwK0/gJcinxWc2viYFPWaqSMmHfLKNbyj5/RM5lMbpfL7kUjKVV+KJf0fBbk6IogTRdXUqYn8i01xu45CqHGJxwOPQDcsjkLt3k4qQVljaU2Ws041Dp0sL+3x41Y6jTQTVkkmrdpl1Oo9YrRd7O1zfL41AZUovkeMZkWhaLUJYBoAA=="
     },
     {
@@ -467,6 +737,12 @@
       "height": 1920,
       "alt": "Delicate blue wildflowers rising above a green meadow.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 45,
+        "aperture": 4.5,
+        "exposureSeconds": 0.003125,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBQCdASogABgAPwFqq06rJiOiMAgBYCAJQBjAhDvkXlLVHCmfgwpf14C5jEwGewSgAP7nKxB0XNWWSRz5pJXBhsZSCVKr5AANG8E4MSQN67s9Cf/uDivH28Gc7QBVh59cJO/zzjuwj32YOwlhH/8QNRlwsNkyyuJj/6W7BoC8qYAU8kJhLPWAki3HusfSWkr4bwgL9kdwAA=="
     },
     {
@@ -477,6 +753,12 @@
       "height": 1443,
       "alt": "Bare field disappearing into dense gray fog.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 37,
+        "aperture": 4.5,
+        "exposureSeconds": 0.002,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASogABIAPwFqrU6rJiQiMAgBYCAJZwDGQCHfXx/bs2quQoAA/t6Gknd7VIPPLlz6InwjIThVOXDpnOvQVHDW7C7g4MMDYAAA"
     },
     {
@@ -487,6 +769,12 @@
       "height": 1592,
       "alt": "Four sheep walking in single file across a pasture.",
       "caption": "",
+      "shot": {
+        "focalLengthMm": 36,
+        "aperture": 4.5,
+        "exposureSeconds": 0.0025,
+        "iso": 200
+      },
       "blurSrc": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBQCdASogABQAPwFyrlCrJyQisBgIAWAgCUAYVmq4NG5I34FWdb9U+JBUjaotPSQ0AAD+zZ3aWZXHn7bjPqe+abmlDmhpXXA/Hbkdeq6dp405ZKm+Obi/B7bq2NPhnxsIyBG7/s0auEQmNs45Oc4QHaHzInjVP7O4tsx/tnAg1tmAAAA="
     }
   ]

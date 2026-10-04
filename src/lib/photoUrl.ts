@@ -1,3 +1,5 @@
+import type { PhotoShot } from "./photoShot";
+
 export type PhotoFormat = "avif" | "webp" | "jpeg";
 
 export const PHOTO_RECIPE = "v1";
@@ -11,6 +13,7 @@ export type GalleryPhoto = {
 	height: number;
 	alt: string;
 	caption: string;
+	shot?: PhotoShot;
 	blurSrc: string;
 };
 

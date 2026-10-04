@@ -5,7 +5,7 @@
     "": {
       "name": "jogly-dev",
       "dependencies": {
-        "@fontsource/karla": "^5.3.0",
+        "@fontsource/dm-mono": "^5.3.0",
         "@tanstack/react-router": "^1.168.22",
         "d3-geo": "^3.1.1",
         "embla-carousel": "8.6.0",
@@ -156,7 +156,7 @@
 
     "@eslint/plugin-kit": ["@eslint/plugin-kit@0.4.1", "", { "dependencies": { "@eslint/core": "^0.17.0", "levn": "^0.4.1" } }, "sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA=="],
 
-    "@fontsource/karla": ["@fontsource/karla@5.3.0", "", {}, "sha512-zHBkxMumwFE+K4RgHQAv2xH0O2lAX9y4zPun5JEFZyNQQclZ5Oz/XvByE3CB5+rnxKEV5BXlZShIEfz0VILDmQ=="],
+    "@fontsource/dm-mono": ["@fontsource/dm-mono@5.3.0", "", {}, "sha512-OINjI8C1S/wpchhQxl7njZdMn4+hnDCpQ4YtvvOpKNARo+0J8O1x1IcrChxNjHOhfVv1by8C/FQoy3hXK+C1Ug=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.2", "", { "dependencies": { "@humanfs/types": "^0.15.0" } }, "sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA=="],
 

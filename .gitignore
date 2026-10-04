@@ -14,6 +14,8 @@ dist-ssr
 
 # Local scratch files
 _profile_tmp.pdf
+.photo-build/
+public/photos/
 
 # Editor directories and files
 .vscode/*

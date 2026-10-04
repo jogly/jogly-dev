@@ -172,6 +172,19 @@ export function Anchor() {
 							))}
 						</div>
 					</section>
+
+					<section className="sec">
+						<header className="sec-h">
+							<span className="sec-num">§ 03</span>
+							<h2 className="sec-title">Photographs</h2>
+							<span className="sec-unit">field notes</span>
+						</header>
+						<a className="project" href="/cotswolds/">
+							<span className="project-idx">01</span>
+							<span className="project-name">The Cotswolds</span>
+							<span className="project-desc">September 2026 · 48 frames</span>
+						</a>
+					</section>
 				</div>
 
 				{/* Disabled for now — iterating on CityStage tomorrow.

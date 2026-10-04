@@ -1,0 +1,674 @@
+@font-face {
+	font-family: "Karla";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("@fontsource/karla/files/karla-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Karla";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("@fontsource/karla/files/karla-latin-500-normal.woff2") format("woff2");
+}
+
+:root {
+	--resize-ease: cubic-bezier(0.22, 1, 0.36, 1);
+	--panel-open-dur: 400ms;
+	--panel-close-dur: 350ms;
+	--panel-translate-y: 100px;
+	--panel-blur: 2px;
+	--panel-ease: cubic-bezier(0.22, 1, 0.36, 1);
+	--image-open-dur: 620ms;
+	--image-close-dur: 420ms;
+	--image-ease: cubic-bezier(0.22, 1, 0.36, 1);
+	--reveal-dur: 400ms;
+	--film-grain: url("../assets/film-grain.svg");
+	--paper: #101010;
+}
+
+html {
+	color-scheme: dark;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: var(--paper);
+}
+
+html.has-photo-dialog {
+	overflow: hidden;
+}
+
+.photo-page-scroll {
+	height: 100dvh;
+	overflow: auto;
+	scrollbar-gutter: stable;
+}
+
+.has-photo-dialog .photo-page-scroll {
+	overflow: hidden;
+}
+
+.photo-page-scroll.is-dragging .photo-open {
+	cursor: grabbing;
+}
+
+.photo-open img,
+.photo-flight img {
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+.v-cotswolds {
+	--paper-deep: #242424;
+	--ink: #f4f1e8;
+	--ink-muted: #a9a69e;
+	--hair: oklch(1 0 0 / 0.15);
+	--accent: #f49c82;
+	--photo-border: oklch(1 0 0 / 0.18);
+	--photo-radius: 3px;
+	--photo-gap: 1.5rem;
+	--font: "Karla", system-ui, sans-serif;
+	--surface-shadow: 0 0 0 1px oklch(1 0 0 / 0.08);
+	--surface-shadow-hover: 0 0 0 1px oklch(1 0 0 / 0.13);
+
+	min-height: 100dvh;
+	overflow-x: clip;
+	background: var(--film-grain) repeat var(--paper);
+	color: var(--ink);
+	font: 13px/1.65 var(--font);
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+.v-cotswolds *,
+.v-cotswolds *::before,
+.v-cotswolds *::after {
+	box-sizing: border-box;
+}
+
+.skip-link {
+	position: fixed;
+	inset-block-start: 0.75rem;
+	inset-inline-start: 0.75rem;
+	z-index: 100;
+	padding: 0.65rem 0.8rem;
+	background: var(--ink);
+	color: var(--paper);
+	transform: translateY(-200%);
+}
+
+.skip-link:focus {
+	transform: translateY(0);
+}
+
+.trip-top,
+.photo-stream {
+	width: calc(100% - 2 * var(--photo-gap));
+	max-width: 60rem;
+	margin-inline: auto;
+}
+
+.trip-top {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1rem 2rem;
+	padding-block: var(--photo-gap);
+	color: var(--ink-muted);
+}
+
+.trip-top h1,
+.trip-top a {
+	margin: 0;
+	font: 400 1rem/1.4 var(--font);
+}
+
+.trip-top a {
+	color: inherit;
+	text-decoration: none;
+	text-underline-offset: 0.25em;
+	text-decoration-thickness: from-font;
+}
+
+.trip-top a:hover {
+	text-decoration-line: underline;
+}
+
+.photo-stream {
+	display: flex;
+	flex-direction: column;
+	gap: var(--photo-gap);
+	list-style: none;
+	margin-block: 0;
+	padding: 0 0 var(--photo-gap);
+}
+
+.photo-stream > li {
+	min-width: 0;
+}
+
+.photo-open {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: var(--photo-radius);
+	background: var(--paper-deep);
+	cursor: pointer;
+	text-align: start;
+}
+
+.photo-open,
+.photo-flight {
+	isolation: isolate;
+}
+
+.photo-open::before,
+.photo-flight::before {
+	content: "";
+	position: absolute;
+	inset: -12px;
+	z-index: -1;
+	border-radius: inherit;
+	background: var(--photo-glow) center / 100% 100% no-repeat var(--paper);
+	background-blend-mode: screen;
+	filter: blur(32px);
+	opacity: 0.12;
+	pointer-events: none;
+}
+
+.photo-open::after,
+.photo-flight::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	border-radius: inherit;
+	box-shadow: inset 0 0 0 1px var(--photo-border),
+		0 0 0 1px oklch(0 0 0 / 0.06),
+		0 1px 2px -1px oklch(0 0 0 / 0.06),
+		0 2px 4px oklch(0 0 0 / 0.04),
+		0 4px 8px -2px oklch(0 0 0 / 0.03);
+	pointer-events: none;
+}
+
+.photo-open.is-zoomed {
+	visibility: hidden;
+}
+
+.photo-open picture,
+.photo-stream-image {
+	display: block;
+	width: 100%;
+}
+
+.photo-stream-image {
+	height: auto;
+	border-radius: var(--photo-radius);
+}
+
+.photo-open:focus-visible,
+.photo-dialog button:focus-visible,
+.trip-top a:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 4px;
+}
+
+.v-cotswolds[data-pointer-input] :is(.photo-open, .photo-dialog button, .trip-top a):focus,
+.v-cotswolds[data-pointer-input] .photo-rail button:focus .photo-rail-sleeve {
+	outline: none;
+}
+
+.photo-dialog {
+	width: 100vw;
+	max-width: none;
+	height: 100%;
+	max-height: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	overflow: hidden;
+	color: var(--ink);
+	overscroll-behavior: contain;
+}
+
+.photo-dialog::backdrop {
+	background: var(--film-grain) repeat var(--paper);
+	opacity: 0;
+	transition: opacity var(--image-close-dur) var(--image-ease);
+}
+
+.photo-dialog.is-open::backdrop {
+	opacity: 1;
+	transition-duration: var(--image-open-dur);
+}
+
+.photo-dialog-panel {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: max(1rem, env(safe-area-inset-top))
+		max(1rem, env(safe-area-inset-right))
+		max(1rem, env(safe-area-inset-bottom))
+		max(1rem, env(safe-area-inset-left));
+	display: grid;
+	grid-template-rows: auto minmax(0, 1fr) auto;
+	gap: 1rem;
+}
+
+.photo-dialog-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+}
+
+.photo-dialog-header h2 {
+	margin: 0;
+	font: 0.75rem/1.2 var(--font);
+	font-variant-numeric: tabular-nums;
+}
+
+.photo-dialog button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	min-height: 44px;
+	padding: 0.65rem 0.85rem;
+	border: 1px solid transparent;
+	border-radius: var(--photo-radius);
+	background: transparent;
+	box-shadow: var(--surface-shadow);
+	color: var(--ink);
+	font: 0.75rem/1.4 var(--font);
+	cursor: pointer;
+}
+
+.photo-dialog button:active:not(:disabled) {
+	background: var(--paper-deep);
+	color: var(--accent);
+}
+
+.photo-dialog button:disabled {
+	opacity: 0.35;
+	box-shadow: none;
+	border-color: var(--hair);
+	cursor: not-allowed;
+}
+
+.photo-control-icon {
+	width: 1rem;
+	height: 1rem;
+	flex: none;
+}
+
+:dir(rtl) .photo-dialog-actions .photo-control-icon {
+	transform: scaleX(-1);
+}
+
+.photo-dialog-image-wrap {
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+	container-type: size;
+	display: grid;
+	place-items: center;
+}
+
+.photo-carousel {
+	min-width: 0;
+	min-height: 0;
+	touch-action: pan-y pinch-zoom;
+}
+
+.photo-carousel-track {
+	display: flex;
+	gap: var(--photo-gap);
+	height: 100%;
+}
+
+.photo-slide {
+	flex: 0 0 100%;
+	min-width: 0;
+	height: 100%;
+}
+
+.photo-flight {
+	position: relative;
+	border-radius: var(--photo-radius);
+	cursor: pointer;
+	width: min(100cqw, calc(100cqh * var(--photo-ratio)));
+	aspect-ratio: var(--photo-ratio);
+	transform-origin: top left;
+	transition: transform var(--image-close-dur) var(--image-ease);
+}
+
+.photo-dialog.is-open .photo-flight {
+	transition-duration: var(--image-open-dur);
+}
+
+.photo-image-layer {
+	position: absolute;
+	inset: 0;
+}
+
+.photo-image-full {
+	opacity: 0;
+	transition: opacity var(--reveal-dur) ease-in-out;
+}
+
+.photo-image-full.is-loaded {
+	opacity: 1;
+}
+
+.photo-image-layer,
+.photo-dialog-image-wrap picture {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+}
+
+.photo-dialog-image {
+	display: block;
+	border-radius: var(--photo-radius);
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.photo-dialog-header,
+.photo-dialog-actions {
+	opacity: 0;
+	transition: opacity 150ms ease-out;
+}
+
+.photo-dialog.is-open .photo-dialog-header,
+.photo-dialog.is-open .photo-dialog-actions {
+	opacity: 1;
+}
+
+.photo-dialog[data-static]::backdrop,
+.photo-dialog[data-static] .photo-flight,
+.photo-dialog[data-static] .photo-image-full,
+.photo-dialog[data-static] .photo-dialog-header,
+.photo-dialog[data-static] .photo-dialog-actions {
+	transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.photo-dialog::backdrop,
+	.photo-flight,
+	.photo-image-full,
+	.photo-dialog-header,
+	.photo-dialog-actions {
+		transition: none;
+	}
+}
+
+.photo-dialog-actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.75rem;
+}
+
+.photo-dialog-actions button {
+	position: relative;
+	flex: 0 1 auto;
+}
+
+.photo-button-reflection {
+	position: absolute;
+	inset: -1px;
+	padding: 1px;
+	border-radius: inherit;
+	mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+	mask-composite: exclude;
+	mix-blend-mode: screen;
+	opacity: 0.55;
+	pointer-events: none;
+}
+
+.photo-button-reflection > span {
+	position: absolute;
+	inset: 0;
+	background-image: linear-gradient(to bottom, transparent, var(--paper)), var(--edge-reflection);
+	background-size: 100% 100%, 200% 400%;
+	background-position: center, left bottom;
+	background-repeat: no-repeat;
+}
+
+.photo-dialog-actions button:last-child .photo-button-reflection > span {
+	background-position: center, right bottom;
+}
+
+.t-panel-slide {
+  transform: translateY(var(--panel-translate-y));
+  opacity: 0;
+  filter: blur(var(--panel-blur));
+  pointer-events: none;
+  transition:
+    transform var(--panel-close-dur) var(--panel-ease),
+    opacity   var(--panel-close-dur) var(--panel-ease),
+    filter    var(--panel-close-dur) var(--panel-ease);
+  will-change: transform, opacity, filter;
+}
+.t-panel-slide[data-open="true"] {
+  transform: translateY(0);
+  opacity: 1;
+  filter: blur(0);
+  pointer-events: auto;
+  transition:
+    transform var(--panel-open-dur) var(--panel-ease),
+    opacity   var(--panel-open-dur) var(--panel-ease),
+    filter    var(--panel-open-dur) var(--panel-ease);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .t-panel-slide { transition: none !important; }
+}
+
+.v-cotswolds main {
+	display: grid;
+}
+
+.photo-rail-shell,
+.photo-stream {
+	grid-area: 1 / 1;
+}
+
+.photo-rail-shell {
+	position: sticky;
+	align-self: start;
+	z-index: 2;
+	top: var(--photo-gap);
+	height: calc(100dvh - 2 * var(--photo-gap));
+	margin-top: calc(var(--photo-gap) - var(--rail-start, 0px));
+	margin-left: 16px;
+	width: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.photo-rail {
+	--panel-translate-y: 12px;
+	--rail-motion-dur: 300ms;
+	--rail-ease: cubic-bezier(0.2, 0, 0, 1);
+	position: relative;
+	width: 72px;
+	height: 100%;
+	margin-inline-start: auto;
+	padding: 8px;
+}
+
+.photo-rail-items {
+	position: relative;
+	height: 100%;
+}
+
+.photo-rail-viewport {
+	position: absolute;
+	top: 0;
+	left: -5px;
+	width: 66px;
+	border-radius: calc(var(--photo-radius) + 5px);
+	background: oklch(1 0 0 / 0.14);
+	box-shadow: 0 0 0 1px oklch(1 0 0 / 0.24);
+	pointer-events: none;
+}
+
+.photo-rail button {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 56px;
+	height: 56px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: var(--photo-radius);
+	background: transparent;
+	cursor: pointer;
+	transition: transform var(--rail-motion-dur) var(--rail-ease);
+}
+
+.photo-rail[data-follow-scroll="true"] button {
+	transition: none;
+}
+
+.photo-rail-card {
+	position: absolute;
+	inset-inline: 0;
+	top: 0;
+	display: grid;
+	place-items: center;
+	width: 56px;
+	height: 56px;
+	perspective: 220px;
+	pointer-events: none;
+}
+
+.photo-rail button:focus-visible {
+	outline: none;
+}
+
+.photo-rail button:focus-visible .photo-rail-sleeve {
+	outline: 2px solid var(--accent);
+	outline-offset: 3px;
+}
+
+.photo-rail-sleeve {
+	position: relative;
+	display: block;
+	width: 56px;
+	height: 56px;
+	border-radius: var(--photo-radius);
+	background: var(--paper);
+	filter: drop-shadow(0 1px 0 oklch(0 0 0 / 0.35));
+	transform: rotateX(var(--sleeve-tilt)) scale(var(--sleeve-scale));
+	transition: transform 180ms var(--rail-ease),
+		filter 150ms var(--rail-ease);
+}
+
+.photo-rail button[data-expanded="true"] .photo-rail-sleeve {
+	transform: rotateX(0deg) scale(1);
+}
+
+.photo-rail button[data-expanded="true"] .photo-rail-sleeve,
+.photo-rail button:focus-visible .photo-rail-sleeve {
+	filter: drop-shadow(0 2px 0 oklch(0 0 0 / 0.4));
+}
+
+.photo-rail img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: inherit;
+	filter: saturate(var(--sleeve-saturation, 0.1));
+	transition: filter 90ms var(--rail-ease);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.photo-rail button,
+	.photo-rail img,
+	.photo-rail-sleeve { transition: none; }
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+@media (hover: hover) {
+	.trip-top a:hover,
+	.photo-dialog button:hover:not(:disabled) {
+		color: var(--accent);
+	}
+
+	.photo-dialog button:hover:not(:disabled) {
+		box-shadow: var(--surface-shadow-hover);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.photo-dialog button {
+		transition: scale 150ms ease-out, color 150ms ease-out,
+			background-color 150ms ease-out, box-shadow 150ms ease-out;
+	}
+
+	.photo-dialog button:active:not(:disabled):not([data-static]) {
+		scale: 0.96;
+	}
+}
+
+@media (forced-colors: active) {
+	.photo-button-reflection {
+		display: none;
+	}
+
+	html.has-photo-dialog {
+		background: Canvas;
+	}
+
+	.photo-dialog {
+		--paper: Canvas;
+		--ink: CanvasText;
+	}
+
+	.photo-dialog button {
+		border-color: ButtonText;
+	}
+
+	.photo-open:focus-visible,
+	.photo-dialog button:focus-visible {
+		outline-color: Highlight;
+	}
+
+	.photo-dialog::backdrop {
+		background: Canvas;
+	}
+}

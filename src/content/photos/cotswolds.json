@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "recipeVersion": 2,
+  "album": "cotswolds",
+  "title": "cotswolds",
+  "dateRange": "13–19 September 2026",
+  "settings": {
+    "maxEdge": 2560,
+    "quality": 90
+  },
+  "images": [
+    {
+      "order": 1,
+      "id": "a5ff848d8534db4ed75dc12c118ca2819b288418f61fd9b7a86f1a73350d48b7",
+      "key": "cotswolds/a5ff848d8534db4ed75dc12c118ca2819b288418f61fd9b7a86f1a73350d48b7.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Man in a red shirt seated beside a Cotswold Way stone marker.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRjABAABXRUJQVlA4ICQBAABQBgCdASoYACAAPwFqrE6rJiQiMAgBYCAJbACdL4GmJXxrxq0WMC8ZqGvHA49rY5MDhYlBzaFpbQ8XwAD+kZCnFWbCvSlwe3Je77NUxflqBUoY/2qoFnqrhRH0MUr3q1+BY8L7QfKZapdQS/P1fN8QewzXwqJ3HSWw1WvXTOXr+2na2/b44fOIYmINzz+lhmrqoyI5GdfruKbyDB5uAbZN2/AZFoq1xV0uzIOAvFPqQDtS6dI6/ib2J0B1p3XAfm7+JLWDYnMzxz+uSFpQjKuZAc+R7nEQfLEccNfjjSHi/MSfA9e/zN0j5Td3m7Oio4q9QwlLtCfuWDGQEJcONclIycswomIHOacE54xvOdx67B+RzOu2h5IcFfv9SQC7dBnSt4AA"
+    },
+    {
+      "order": 2,
+      "id": "e37a3e3547d00c4337161817f7c33b74637f799d61da94ab61e5218176efedfe",
+      "key": "cotswolds/e37a3e3547d00c4337161817f7c33b74637f799d61da94ab61e5218176efedfe.jpg",
+      "width": 2560,
+      "height": 1738,
+      "alt": "Sheep and lambs grazing beside a wooden fence.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAADQBQCdASogABYAPwFws1GrJiSiqAqpYCAJZADA3A6/QVE+o7GZYULmIn6Av/4K/XO+aLSehTxAAP7pHeIqOOQ12hCsSRhVp3D3+tuAegXKLQRAvbTv4FtFbz3m52Hyjc3YGQ80prT5eVXarU84xsYhYznIajWK7dlLjYFMaijUd2arAD3lHIA9tV+ab/t5valjwno+aSOxdt6ZeMAGT1rnBRmEG/ropAB5qgPL3+eNF1MM8LoAAA=="
+    },
+    {
+      "order": 3,
+      "id": "4ff862610816642f0e4099a3104136038b3c2b2584f744be346e9329ca8a77b7",
+      "key": "cotswolds/4ff862610816642f0e4099a3104136038b3c2b2584f744be346e9329ca8a77b7.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Tractor lines crossing a harvested field beneath a gray sky.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASogABgAPwForE6rJaQiMAgBYCAJYwDKACHWkaHMvuP3zmBznZCRAAD+6mvAMDjbTSFukfzrT3ch4k8z/T86HkZ1sLjSLPK/7X6c+36XMNxRW2orhlxiCa8IqDWYtqO9F7MIeZJ7HF+qCA0SPREAAA=="
+    },
+    {
+      "order": 4,
+      "id": "978e20b48b6ccda157cd3814759b6790a9803944d163ae222e2186de159657e9",
+      "key": "cotswolds/978e20b48b6ccda157cd3814759b6790a9803944d163ae222e2186de159657e9.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Green valley viewed over a dry-stone wall and framed by a tree.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAADwBQCdASogABgAPwF2slQrJySjKAgBYCAJYwDE32pca5HSIM0vxn3ieyQusP3CMDDVufXqSCf2AAD+7ArK7DbWiZhc8YlsoAdPbgSUMab09ul+kEWvFpLeOqBHGIn9BsPxrtBweyZzdKOqyjOK3APB5WIrSI9oDMj+SRgIftIk5kiizAJa4awbCIZqEqaw7OxLh2d5+p/2KllAcMkzqber4Ormq/hBjoiyRpI80EwXTbFWHlZNyFn/pRQd7AbdgAA="
+    },
+    {
+      "order": 5,
+      "id": "d830bcde36321da1947794c65a5645b81160a7c6a17ffaa612f53a3d4e859fa9",
+      "key": "cotswolds/d830bcde36321da1947794c65a5645b81160a7c6a17ffaa612f53a3d4e859fa9.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Lone walker crossing a rolling green pasture.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAwBQCdASogABgAPvFkq06ppaQiMAwBMB4JYwDKACHaUwPKtxNbu172IWQnmAyA3r7PAAD+5yfrdUDutM2C2sWOJdEO9uC3MVAKSyiHBp+YVSNup9vVzWJGb+FfPsUKByYaJ+Uz4C/u3IxbKZ/3QxVCv1CfVL0HI1xJ0NpVp0p5HAAA"
+    },
+    {
+      "order": 6,
+      "id": "3122c5695145d5b3dab0d196f691f4e0a7c7d77f57ae5d5ab7b7f1fa0ad0239d",
+      "key": "cotswolds/3122c5695145d5b3dab0d196f691f4e0a7c7d77f57ae5d5ab7b7f1fa0ad0239d.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Two harnessed draft horses passing a yellow car.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRjQBAABXRUJQVlA4ICgBAABwBgCdASogABgAPwFurk8rJqQiMAgBYCAJbAC7B3yoJ7WRGqmssz2k4gaNk+qsrEGCBdufBHsnEKWHqCwA/toaLGHsVweJ8IsWd5Cdv9zUzzlsBea+OElXgD6KFWa3pX6qvOevrjFWgfCxynOrzHiOE4oEsWg0q3WbHPF8P+0H0vULkvTtNVm3g3Naecxyv1BEy75icXqF68mUCDjQp47boJg2y7/V9AdxN7nBrvrkZcWgFJWviGjOliy8/Z2fhRV//cnaDqSjMt3y+9v+F+J47Tvuink813qjnSzjeoVOIMVOL0PQqZQlKT1HYC0NZgqLPJGELos82rLvZXD9S3x+Z3NwOQrupiaQn2zIvIBvyPSznoV86olaS5SAWhnz+z4q9XU5BQHgAA=="
+    },
+    {
+      "order": 7,
+      "id": "db739fef6a713a8f3f27d0682580f972e96a4ec63ff3091229ed2464075165fc",
+      "key": "cotswolds/db739fef6a713a8f3f27d0682580f972e96a4ec63ff3091229ed2464075165fc.jpg",
+      "width": 2560,
+      "height": 2560,
+      "alt": "Twin tracks disappearing along a foggy country lane.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBQCdASogACAAPv1uqU6rJqOiMBgMAWAfiUAY/I9t7uJyhyB8qcDEF1Gefx3Xoq+mj+AA/vzWvQNFSrZKJwXAGOb0FuGJe2z65BSYZQBV1GZXCvC5aLsPdGl4wtD6NdFDioNIv+bI1sZGKcI6pTaDg3tdLyjnQyOe0qPEM/5KoUTH5Dyk8pEle5VC+LZBa/OJL4AA"
+    },
+    {
+      "order": 8,
+      "id": "705a559b280304f4ce192f838b0732b15ef011136c1e9a2465370fcef513afe0",
+      "key": "cotswolds/705a559b280304f4ce192f838b0732b15ef011136c1e9a2465370fcef513afe0.jpg",
+      "width": 2560,
+      "height": 1844,
+      "alt": "Sheep facing the camera from behind a wire fence.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASogABcAPwFqqk6rJiOiMAgBYCAJYgC3uB6QD0VBpDAM4ar0zxKbYAAA/hO7zNS+6aQ53aVmMkPjIfIqEucGL4LeO6e66JlG8duy3hu850N5OQkRkd9DZUKPQAwTHK/Sgx+t9ESr4pNLmP8co1QSkFP+89iuDeIJg0IiAAAA"
+    },
+    {
+      "order": 9,
+      "id": "3fde0b943cb29a4240689c1c6157c407a4648305648ff3e9acdaff18007408ac",
+      "key": "cotswolds/3fde0b943cb29a4240689c1c6157c407a4648305648ff3e9acdaff18007408ac.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Dark green leaves on a rain-damp branch.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADQBACdASogABgAPwFysFKrJqSiqAqpYCAJQBhuARONMoT7MoSeirNplSOMoGcZPAD+7EQhuSjWIC+Tn7oeDWCVLwhoao25ZZIT00GI9wEMtJHHfs516uHkzzyLTCgl/+IkTSObLCvQ7tBd3K/v8fILPxnCdNJRk/1Vd94wJB4wxY1FO4yu0ONjUlZeBZFIkzd0QLqz9B/OCBVHM/Lj1gmEm6ZAe3AiUfyyi4AA"
+    },
+    {
+      "order": 10,
+      "id": "32fb703724a3eef828c6c508354cd0e68994452c1e48706c9bf3e694b04d1a9d",
+      "key": "cotswolds/32fb703724a3eef828c6c508354cd0e68994452c1e48706c9bf3e694b04d1a9d.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Thatched stone cottage partly hidden by greenery.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAQBQCdASogABgAPwFwsFIrJiSiqAqpYCAJQBmDhcfZaSGzCw4zngwibpV6jBmlNBFcAP64IZdQfH8pht6/k5/R0uPM7P+lXcUsPk7MZOiwk2DCBWTHVpWmMIuGyBc6fHqlAj+Rep06jhCYJSKhOfBCCnQ95whea6AiMJIRI/ZDb4DjuMskNFnUVzXp2s9c5l5UPP0nm2m2+GxXtUPNkNYwABqDsqN2nTAAAA=="
+    },
+    {
+      "order": 11,
+      "id": "861e8572a2e6438c0c9ccbf54ecf2eaa17cf57897b66de50852be1a0866da7be",
+      "key": "cotswolds/861e8572a2e6438c0c9ccbf54ecf2eaa17cf57897b66de50852be1a0866da7be.jpg",
+      "width": 2560,
+      "height": 1766,
+      "alt": "Person standing beneath a broad old tree in an orchard.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADwBACdASogABYAPwFsrU8rJiQiMAgBYCAJQBkTVdgTdUE1jtciA6zp+RMBQJXMfgAA/tlaHj9ziDweUmV07fOUrllt5gWgjg8MnEgjAtmKe2VG8L2REtGuT9G/SuCnCr/DjfpiGt2fPKxgGhkK0vOaZoGpRkCIQ/mxL1CIdq0ojRSfziMPWeiG5bIDkhVtSHuhvD9MT+sPYHWiQlJxumiIAAA="
+    },
+    {
+      "order": 12,
+      "id": "e84dbfe7cd7e5526c0bfca362bb04c93b75bf0c3fe0e7aa5782d4befede82ca7",
+      "key": "cotswolds/e84dbfe7cd7e5526c0bfca362bb04c93b75bf0c3fe0e7aa5782d4befede82ca7.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Person walking a narrow path beneath overhanging trees.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAABwBQCdASoYACAAPwFurlCrJiQiqA1RYCAJZACdMtplvDC6fUgbKSYBcwUmoEZqBysjjr5kAP72lqFJ0htk1G7zHlnaXzEghr4UwP21cQ/cbWdl8kdhFWhyMbjmXJN+SLF1rEVfL1itXvfPktCRTRist6l35ruO6G32eCQ04G96Dma/eMdF87o4P+yqVtFqb/reUJjLE7SyHflpblhF7GC2sFq5qAsXU0xAIxkXIGFBla3wPRiC8UJES/uXoA0aP8X1v2Ajtr+pRmJ2zoG1125BpOpoNF/lb/Ciq/en6+VcmqWMU741ahAA"
+    },
+    {
+      "order": 13,
+      "id": "f885e98a89726b6eb18caa7fccd0399d3d0925aec037ed82df049128269e086a",
+      "key": "cotswolds/f885e98a89726b6eb18caa7fccd0399d3d0925aec037ed82df049128269e086a.jpg",
+      "width": 2560,
+      "height": 2018,
+      "alt": "Curving drive between pale stone walls and trees.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAACwBQCdASogABkAPwFurE8rJqQiMAgBYCAJZAC7ABwv47VsJRH5Nlel+akKoSch+KcGy4imegAA/uv4n47wlk0oXrMc5jkRdCGYeYjudfEdPj6JJzMSnpCjbuN65xd4lv8UqMl7MAxuSVK0cn6KuydBhrklBLfSAkENJxogU8rURVKRyVriFz5W43k/RpuUN6iKuzoKTPVoH+Y7R1lFmegUFtLwFUfYzP2mHnsZGA1QJkqADrS1s3cQZG3sENjJB8Ri3Bg/fFIcYwkf/voUwnABlcLR7vZv7YyA1R/bVP4e/y05otZ0WsoZ6i5mJlnAKgAAAA=="
+    },
+    {
+      "order": 14,
+      "id": "ecc54bc7b87df3ed1807315dcd49a283e8080a9e0a3a5d9b5b7ae2d52c6a4dbb",
+      "key": "cotswolds/ecc54bc7b87df3ed1807315dcd49a283e8080a9e0a3a5d9b5b7ae2d52c6a4dbb.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Person beside an ornate honey-colored stone building.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRvwAAABXRUJQVlA4IPAAAAAwBgCdASogABgAPwFyrVCrJyQisBgIAWAgCUAQMNpCXUQjmKxoaya+U6K0jVl4a0ttti3HujQaGoYAAPwHyKx7UitPOgrwXaipUOBMQu6zQ0Xb6KfbDVycoC5KPvvHvXydYAc4q9DV4vz5NoRC8q3HOsYZLy+HQQ/zIHneyjJQe5MdJTXryiIFUPwr/aHzDvcX8uFUc+ykcGvBb5YzTuZRfo/XKe8r6FrKW752P+/HsXJyCNe/vF64bOgD1yoA/DQ0fgdBC0Z5vMdad032mRAjFHy59vM6xD/VE0ppG4X7LunSWxIkWYPkrhgEMSglnAA="
+    },
+    {
+      "order": 15,
+      "id": "610610444ff220c40becbc3d8494bf064f059fe6032c8498a8290bee4554cfb7",
+      "key": "cotswolds/610610444ff220c40becbc3d8494bf064f059fe6032c8498a8290bee4554cfb7.jpg",
+      "width": 2560,
+      "height": 1659,
+      "alt": "Person walking beside a moss-covered dry-stone wall.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAADQBACdASogABUAPwFqrE6rJiQiMAgBYCAJZADCoNiDFj26DnnbkuS1kponcrupRADh7NqWXiC05qGRLPdxgqIgzyk5XFQ+Je4LoST3u6WIhhDz552zHa0JGbF8+uBwrJ4YWErYLpnucB24FRUjhjklkL/ynyD25JLsRNzwBvkGUSdP7ewxN0NbITz/TPMaPNwRdgq6weF6BKTe20NgRObTY2cvGB64HcRzccQqV5mCAT+aYkQrYKyI52TtB/bXPZeTpGIHNFYnGu5P8gAAAA=="
+    },
+    {
+      "order": 16,
+      "id": "29955f9946ff4e8d6c7022f21ae19019150a9738900c2e26e235e22dc1ec109d",
+      "key": "cotswolds/29955f9946ff4e8d6c7022f21ae19019150a9738900c2e26e235e22dc1ec109d.jpg",
+      "width": 1815,
+      "height": 2560,
+      "alt": "Person following a grassy track beside a large tree.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAADQBQCdASoXACAAPwF4tFOrJyUiqAgBYCAJYgDKtApiQ5meU/+fssEIqH29IQC4togIOf4fDTSAAP7WIfWa+YHmfT72x+hziUcKIPoTFomktwDZGndTeyIpwKs5zny7sSMzLfIy66SaGxgxucqqgD550u8EOT/L0rrZGQSnFha6aU5zlnK2HRQLMwHRL8FVGM/k+Nvo1+eKGHmDoOuEoaAUj7+md7+W9V9jjfMzTi1sXzpBnehpzH4Hw069TeN/cf/gm5B9HChUHiMyiQkwox5ghCcAAA=="
+    },
+    {
+      "order": 17,
+      "id": "16b7916cdfda295d1745e814d864a28c4d149b390d9d780276a51aa39ae53e19",
+      "key": "cotswolds/16b7916cdfda295d1745e814d864a28c4d149b390d9d780276a51aa39ae53e19.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Patchwork fields and a distant town viewed over a stone wall.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBQCdASogABgAPwFqsFGrJSSisBgIAWAgCWMAv+xpXzUkjqpV5v+P7Z0bg42F2n3X2cAA/u158liCn/jsipXEGa4o+ZnC2XXjZIOy3fAGeHDbCregNIIK1UPkPZV94hVvO4arbyQV1WoSuqRgyFSXsK5YglWlwsEKIouWNXn7N5qWu04YjRCmBXK2TiYzdfGVQIukg+pYT/8TjNEQNTJ1gAA="
+    },
+    {
+      "order": 18,
+      "id": "361f581fa14f42e2cca4fe3dd165f7b4bd95c04fb0aa1f6dd95199682e92731d",
+      "key": "cotswolds/361f581fa14f42e2cca4fe3dd165f7b4bd95c04fb0aa1f6dd95199682e92731d.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Hiker with a light backpack looking across a green valley.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAADQBQCdASogABgAPvlkqk6qpaQiN/VYAVAfCWIAw1UgeIcPIHcZcrzCFE8OqxB6SMGLnwNg/4DgAP7qsUP8B8qJ7T2x8MD7iSDf6/xxUVHVK0EQTdB7ELZU7ZpXUsv9AT+ostp+L0ZOsHCKneQDZZnwibON6hMCJbXlAvSNfE4IKZfHfWATq5V/IKKJ7D5o/ly4KrnKanc6RXYttl0GyfM6VC9rO2vSDDg3u5BuJy7zlPfHidGCwmT+ogUY9cHP15+raMIV53VgDFCN+ri7MT7Ta081K07sfwWUftBw8KOpQqCaAAA="
+    },
+    {
+      "order": 19,
+      "id": "129035edb4fee6ddefab0ffedfad68261ee17772eaead9ff3199b58a800ac741",
+      "key": "cotswolds/129035edb4fee6ddefab0ffedfad68261ee17772eaead9ff3199b58a800ac741.jpg",
+      "width": 1716,
+      "height": 2560,
+      "alt": "Neat rows of greenery descending a hillside.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBQCdASoVACAAPwF0r1KrJqQiqAqpYCAJZACuLf/gFJBN4MLi951Na8Ky6LYxQukPQADeVZFjSTGOA3NY3KU4LXG2Xb/rSpAvBZ9mcwNFIJqtW5ScXI9KWVCFtBS2Ozx8np0fPxMSvc7NOBIHD+IG3DeHtAEgTZuasmXiL2lzHEm2E3zke+nAKv7Z1r3+Hq8K3sPNSt8TGGAA"
+    },
+    {
+      "order": 20,
+      "id": "71dbeeefa6e6f4a8cad35e0156f0e02221ac8abc5c6c1554d4a5a9ac798ea026",
+      "key": "cotswolds/71dbeeefa6e6f4a8cad35e0156f0e02221ac8abc5c6c1554d4a5a9ac798ea026.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Quiet street lined with Cotswold stone houses.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAACwBQCdASogABgAPwFyslIrJqSiqAqpYCAJQBdgMaBMtdasUHOXR8xA+YNhT8hcKWF19Uc3PQAA+/+nDKpUxgyxC7nJ4z0I/uVavvkvlUH2E/dGo2a1ODck0zmJ5OhPfGpVDI+dg04zPHLfe5708XQNXaTiikHi/9eUhdfsRzMnmND3GyBQmtx6/Dzl9RLcGWz4IywGlPQ2B1Bu/z+fPNJ2pTy+Qx9m12hbwVKB1XsfIPZpmdkDE55Hb4vaF7JoVBRrwerZ3HFjBKuqJrLHr4/fff8yYAAA"
+    },
+    {
+      "order": 21,
+      "id": "c5f167082bcb44bab420e007d161eb8906880d4712860bedcd2c2df31487ade2",
+      "key": "cotswolds/c5f167082bcb44bab420e007d161eb8906880d4712860bedcd2c2df31487ade2.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Narrow woodland trail beneath arching green branches.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBgCdASoYACAAPwFwtFGrJiUiqAqpYCAJQBdmZmAvhHAqGvEknNGa4wQ4bX9T7hWMdY5bUHHvQz9AAOW0hv3w+f/YbJ+6zmqdaN+P711uQUjRXiK8u1njT9SvbIRlpU9waeRUOcxZD9dWQFDOBsf9QzGiktzKTfgz8G7kXg+lWZAj4mn1Rx4IFMlnu2SJI2I731gJR0Evrw2FVSp1JP+FnK+Bxoj3xilZWRewS/sDoUXG4A3JfAAA"
+    },
+    {
+      "order": 22,
+      "id": "d2c94ffc9c4005fa32fdbbf1ea8139f24c028d22aefcd2d0059f25862dbbabe4",
+      "key": "cotswolds/d2c94ffc9c4005fa32fdbbf1ea8139f24c028d22aefcd2d0059f25862dbbabe4.jpg",
+      "width": 2560,
+      "height": 1697,
+      "alt": "Three sheep gathered in a bright green pasture.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACwBACdASogABUAPwFurU6rJqQiMAgBYCAJagDE2BtQu5e6wapNbdLUdMTcd3UAANnKnXXMqtucAdpwi4SYYlSN2tURohI/iNdB45W/Xt12/ajdVKICOmggVn3Wh2Lrw4wU/NRMnAW6UUW3D0sDX372oxsDpMrkixbcoEKEVDpA9AXAuiOgqpfWc0HEBIzInWauyY6BmKYRNiZ1nGfJhVDAIW0hTAAA"
+    },
+    {
+      "order": 23,
+      "id": "13f65246fe7ca70417cfad19db28918c34d4d951ba2b1d44b2c32e6bfe198791",
+      "key": "cotswolds/13f65246fe7ca70417cfad19db28918c34d4d951ba2b1d44b2c32e6bfe198791.jpg",
+      "width": 2560,
+      "height": 1583,
+      "alt": "Snail crossing a damp woodland path.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAwBQCdASogABQAPwFyr1CrJyQisBgIAWAgCWcAygAuoTXqGmboGo3jS23tCnGV20Gx9AD3LE1mgh4Gh6pPHHJDsfChHPuJOqCJt1HoxO10GO5aMj0siLOqK0FoeSeV6LC/qc5MW+80fJOJyeUtKKbzSCACrZaJ4vnFRRqIq7c7i21D3QmW/4Of61G4cBnqhm9mEncpKEcCiuvBjUazbWPY30OlI48Op79DlsZYAAA="
+    },
+    {
+      "order": 24,
+      "id": "59bb74a98d14b3b7d1c0f45a6ea724319fbc3ff6e10d3db7592bf54fef3a628a",
+      "key": "cotswolds/59bb74a98d14b3b7d1c0f45a6ea724319fbc3ff6e10d3db7592bf54fef3a628a.jpg",
+      "width": 2560,
+      "height": 1810,
+      "alt": "Sunlit patchwork valley framed by tree branches.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRggBAABXRUJQVlA4IPwAAACwBgCdASogABcAPwF0rlArJyQisBgIAWAgCWIAsPGsHGBpg2iQt78uyFmqLTX/XhuHb/6gn5lV803R4h1nhAD90tVbMkPEBLwqvOp1KeiXqUbvtTSQ5nYqchnmDeXZPddqALjB0L/CXkxf9OoBERLcX0ZlAM+BuDEd9yVBJg98JiMYgjLb0wboDcP9E/hcu6kdgSeNhXUSwzN7tS5LqNp20YYsJ1c1wrGK8HW872E9+8rfyEECNJpvLwWWokUrwqMffytHWjaYWw9auuft1R/UDjCP66zHtdvGxczzQIU9pLwCATGIHaZY5ZpR5ldaDOYJNpioTcCYFs+FCAA="
+    },
+    {
+      "order": 25,
+      "id": "fa995b030f547894d8bd5d54a88e91970b409ec4c3225260c0af547b44a40250",
+      "key": "cotswolds/fa995b030f547894d8bd5d54a88e91970b409ec4c3225260c0af547b44a40250.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Hillside view over fields and a town below.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4IPgAAAAQBgCdASoYACAAPwFor1GrJSQisBgIAWAgCUAZmoECPlN6THPI39D1YyKYkXjQqiQ5pxFcvhww2OAA/TZC/T/2M0FZhekrL6D3C2TDARPMeM5r1T5Uce4LAQMqHoe3Jcy7nQiU/6cupXryhKw/SHM4c0inDHYWmFh9l1E5BMddTKqqgKj6hcNg+iJ9nmpLHKSaxRe6ZkAvc/v4VF3fUCHrjhiOdFYlQ3kGqVDZXd+klK2gbUeUisHRzOj9KgcaP5R32NCZV211w3WXrmb+ZGa4yXKjhtG8MwKb2BNlG5dZOuZFlgw/cQ4i3SJVAaghP+flwNFurcAAAA=="
+    },
+    {
+      "order": 26,
+      "id": "c7f2ee0bd2ea14d935c54be431afb7caf024b668c7bdb69109780498d242cb71",
+      "key": "cotswolds/c7f2ee0bd2ea14d935c54be431afb7caf024b668c7bdb69109780498d242cb71.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Sculpted topiary trees among stone markers in a churchyard.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAACwBQCdASogABgAPwFqrE6rJiQiMAgBYCAJYgDA7f/gPfsfDJ1rHaUeq75nfhCZHTxax+yPkIAA/mV8RSo/p4OwtBG6aLhHkfDWqYvMGHhTgpx7D/nM+R4ucqQ7o8iHHYrJzh5ISn5FFCou0Lr9jWBEg+E4BIPV+r1YKtMQ5h3SHXoHqLbL0Pa6xR5ltfYRkQ8nWW7s/VuDT0wNciG6U+hVwpgq1B/mlBwkS+iI2OJdQPnz4uk4FPGWaBcD0xFUtAHAIjrDjincMoyvt3g1iFpJ/La5OdDgo4RtfgAA"
+    },
+    {
+      "order": 27,
+      "id": "f465bbf786b52de90424ec986603c192edb4337111cb4369fc263e9be9cc525a",
+      "key": "cotswolds/f465bbf786b52de90424ec986603c192edb4337111cb4369fc263e9be9cc525a.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Weathered stone structure on a wooded hillside.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAADwBQCdASogABgAPwFqq06rJiOiMAgBYCAJQBkZXlcM2QkJFs2epsHu+dijwqVROS30KVqZxFzfAAD9/F+EUis7crgegecYziV7altt2Yx/+IblLAiYrrGi5Bc6UmDbR1pfTnXMbyWa9LB/pYiIZenDZiQgN+MoiMtCckdh44OvUN0QxJEoVn4wfNnIPYspt9KVADyGxVlHypdkYBMSLcnNS55Co+nT8UwDwdcgOr4NSboZcyLYhrBnMTSLanMemWrahElybNqa0w8q7VJC61daZTJBd3CpmVQ9gD310p+1wXdMMBljgV84AwnNzbRAbtAAAA=="
+    },
+    {
+      "order": 28,
+      "id": "774f17647d8c729a5df4dd3388d036c526d0722fdf2ac45ab90c2fbf27577a53",
+      "key": "cotswolds/774f17647d8c729a5df4dd3388d036c526d0722fdf2ac45ab90c2fbf27577a53.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Person following a grassy hillside path beneath a spreading tree.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAACQBQCdASogABgAPwFurU8rJqQiMAgBYCAJQAHQ5Few6Ogt2bTa0CTqlHxrDBEIaWbcl12CgAD+6y45VzGXNmBvUo4s/5RORkyHdqj5Q3ktk9EUB5sTWhXABbVha21hA4/0XoiPYI8/bHi7uqeOTzTbDN7W2zoRQoAlc0dDp0/85YWYsJfy8fb7UsxFXXXoS7HLGs1KwYgwi43zsxjG2myOsRtgCSM4knp0BtBmV+QcKG1NlaKlB/oawbfOfKhoNjK8SRS48/BIgqzBJPtxTAAA"
+    },
+    {
+      "order": 29,
+      "id": "105b73a0e26b0be64956e275a5f5a80ba47b2d8a1c292f45c9aa1737a6c94fd3",
+      "key": "cotswolds/105b73a0e26b0be64956e275a5f5a80ba47b2d8a1c292f45c9aa1737a6c94fd3.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Sunlit path through a tunnel of green woodland.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAACQBQCdASoYACAAPwFysVIrJqSiqAqpYCAJaACsMxipBM+oP8M8rW5yb0+sWRyZCVKbCQvZ4ADRR3tQ3AbErlnDDWVip6iMw5pa01xRwMxuz52n4/wr6ftUnMAjrGw6Ve3sjMfaCRFQCon+XGfmtEU0y/yZfN23e3ji3kMQGFYq3rWClq+drZ+jHE0DK7Og/Xsd1d7hcEjbc1fVYO+kC3THHvPrDvRJXRCLIc1AVHVU7KRNebo111gNEDnuB97aE9PXCn0GBND0QDcX2nCeEC0aRomaNwPyiMoxA9AA"
+    },
+    {
+      "order": 30,
+      "id": "bddcb3f7fa41892e6f70bd777a806476ebe267dcb26f94615c6db3f991601b2b",
+      "key": "cotswolds/bddcb3f7fa41892e6f70bd777a806476ebe267dcb26f94615c6db3f991601b2b.jpg",
+      "width": 1466,
+      "height": 2560,
+      "alt": "Narrow wooden footbridge running through dense trees.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADwBACdASoSACAAPwF0sVOrJqQiqAgBYCAJZgDCgA5V0ZlGxN+M7ZFVGMfjqeiKlAAA/Iph4CkLpjWF2JE28amlAtwk3ZYMqUw16bNp4YHpJ1sEEX/4zkh9bwbfCOTNH+aNBHtpUwP5mYSyXOYA6juhD34Q/1nRLJTZZD4SrjFgigdnRE6ihGr43oQC464r6ALEXvl+heDDNbT3o2woSqLnMvSavMPVGyFdqJJNRb+kwAAA"
+    },
+    {
+      "order": 31,
+      "id": "b93baff631535868c925c5496fa976665146025f9c1661c236ea887d46420b67",
+      "key": "cotswolds/b93baff631535868c925c5496fa976665146025f9c1661c236ea887d46420b67.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Walker on a path through a deep green woodland ravine.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBQCdASogABgAPwFyrVCrJyQisBgIAWAgCUAVHrE2SIEnnl4DjuaybZuBUiq4xzLqELTv/YAA/uz/hEmr3TdpzpWMvhaFugLd7eJJ4XKE6UqniezXa2SwdXezKW3x6QBgwjEYOVLSGrQI4Ql3UVnHJodqUvj5DEGXjg8I4clUNVAbWMUJetKmpHoatIQ/Z2U03oJlWAAAAA=="
+    },
+    {
+      "order": 32,
+      "id": "f0ace39de8ebd3eefb959c01179c5fbbaa8b3a4e4a86da1533377d907290c24b",
+      "key": "cotswolds/f0ace39de8ebd3eefb959c01179c5fbbaa8b3a4e4a86da1533377d907290c24b.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Pale limestone face rising between trees.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAACQBQCdASoYACAAPwFyr1ArJyQisBgIAWAgCWMAxkQIAJlebxW2Je+sYZyhqh5fiD9T+pzFIAD9oMf20muDjWz+Xn35+39stb34DCs0GUzy0gk/jdU3farpJye1mMjE1GPP1vp94PIXtjfPOhThHca6078APAn/qwOWFPcdFrNz5qgXs7zttcN7+Zhoif9k1ppuf9xBQWd1APwuU3GFOHd1uMVXhJBC1iTPKPQG+XMfjYc7x6elFuYANog3plPQB30yU2ztbJ2+DjuNdZv86lN/+lwAAA=="
+    },
+    {
+      "order": 33,
+      "id": "d9fe1488e800948c63f6eb514a0fab5846044087e4894433c3a36ce17e40866b",
+      "key": "cotswolds/d9fe1488e800948c63f6eb514a0fab5846044087e4894433c3a36ce17e40866b.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Pastoral view across hedges to fields and a wooded hill.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAADQBQCdASoYACAAPwFyrlArJyQisBgIAWAgCWQAqPcyaqakuQ/dnSBM8G2EfMUYqkD1M7+g2NwAAP7TUpP2Zdem+r88LV8OxU7dTb1iMfdKtp2ffLwSyYUAD6VImPrjYVB0C5CToRdywhnHC8tsI5b9OOFV3hzOvwO+/2FJg6pA8DvydLnFxDcewS/+Z5ZZDVQthZWQ20GgUxhS5AD6K27+SIwPcFKySvzWKQwo3uKJSiIqY/cWQYhWT/mG7oB4OGw8t78u/PSEOps95FGnCHWk55+XGW8eqa/C5gAA"
+    },
+    {
+      "order": 34,
+      "id": "4b754a752f32edef3f42ff739b5d555a1d5ade3197e415f0fc548aa226327f94",
+      "key": "cotswolds/4b754a752f32edef3f42ff739b5d555a1d5ade3197e415f0fc548aa226327f94.jpg",
+      "width": 1698,
+      "height": 2560,
+      "alt": "Black cow standing on a hillside above the valley.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAADwBACdASoVACAAPwFsrU8rJiQiMAgBYCAJYgCdM0xDTZ1MueY6PbLRpuyjbkCHjgAA/IwHhOGDK2Q2FOKWDdltUV1GYDuBYdjQqd6H0CRih3sEQaztHZ/MGcpv5oLIUpv3odwuseRvuUrx1yWiZhjJUfRWcAiubKKsVXAXHg4pPf83uPjr1m9XeQm6ACokCBsPrUUA7EGLJzouNHQiiQAA"
+    },
+    {
+      "order": 35,
+      "id": "3507b3bbde1c7b7ca2d8a7f9a9882f726b6ed450799146978702fefa738bc2d4",
+      "key": "cotswolds/3507b3bbde1c7b7ca2d8a7f9a9882f726b6ed450799146978702fefa738bc2d4.jpg",
+      "width": 2560,
+      "height": 1783,
+      "alt": "Sheep scattered across a vivid green hillside.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASogABYAPwFqq06rJiOiMAgBYCAJYgC90CHw4/EURV0AYaadCf75fT/8BZkCAAD9U8+ZPGPwgF5quDVVLqP2kEjKBh5ExdoEZJgWevX9mbdlBFpyL9fsiDa5svTYRY9ep42ScyUJHVjq/K5kioQ7nmpC+dvz/76fweYHN+3eECuqXoEpjc1NP52uMDFe/+gA"
+    },
+    {
+      "order": 36,
+      "id": "40382a6f9c719b387a7ec69d2a60d1c242377ee31e220aa44d76230f47fd3b41",
+      "key": "cotswolds/40382a6f9c719b387a7ec69d2a60d1c242377ee31e220aa44d76230f47fd3b41.jpg",
+      "width": 1920,
+      "height": 2560,
+      "alt": "Muddy lane beneath a canopy of arching beech trees.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABwBQCdASoYACAAPwForE6rJiQiMAgBYCAJQBdmW+SuKL1nYkwIOmoA3BRX40NsAn3lBUAAAP4j7vIY8JABGoIfr8Lkf2lfO7bxkrziu43CVQBLi19B7IdoHUnJPR/CGNzKwVHXKTL5SE+oPIuLeLrFTpQRC5VxmAbdP3E9wG4b4xLELdx8X5GEhD1edrcDhNxAiMEGLMnQxJjUYeDrBpz7DncIW7yUbuQHmD4+t6FHvdMBEbiPmDvLIgAAAA=="
+    },
+    {
+      "order": 37,
+      "id": "ac51bdc8df89627a6cee0f773e48ebbfa5e0374f0c1abb4b5093f4aa2224bbb0",
+      "key": "cotswolds/ac51bdc8df89627a6cee0f773e48ebbfa5e0374f0c1abb4b5093f4aa2224bbb0.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Cluster of smooth tree trunks and exposed roots in woodland.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAACQBQCdASogABgAPwFqrE6rJiQiMAgBYCAJQBdg3gar0fAH2Bffd+exgCow6qzvqKGKK3yODAD9JHsRfW6b2i7Q4G2N2M0JjDuWFtIiT5/2BGlPglHFLn4sd7lokZ1ExDP7K6iXD0IlSRdsOZ//O5prmHGI+BzVZkPcrCLgi4EYO+PTMKcsao0V6eMDNlaUVXhFKiSdUvNyVdUKu1uvNxmKC28sQyNl8yL32Ijtscsqgz3yctmP8XoCx98zhRJzS+tOZ5TQB+pMoCdMggGchF1VC4LtCVZx7mTpwNixt/wWAA=="
+    },
+    {
+      "order": 38,
+      "id": "9dee69ecc9b34c08677ee1b41ac654311fc38aa7ceb4d5700ba44c77a6779eff",
+      "key": "cotswolds/9dee69ecc9b34c08677ee1b41ac654311fc38aa7ceb4d5700ba44c77a6779eff.jpg",
+      "width": 2560,
+      "height": 2326,
+      "alt": "Windswept pine trees overlooking a distant town.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAAAwBgCdASogAB0APwF4s1OrJySiqAgBYCAJYgDGCawlGYj2tMIWBMBiajFmemFdH7+dA8OoMgxDESuAAP7TSGNnH4IJvrgxWl7baMlfK4ARLgTNTubwln6TerkoqNZ9DW5lEYsS/H6Yv4RTOVOxItzF5MD29vZnc4oKPh/BMcTIO5hZDj8GWL/hrYREDH6Vmv0rZI7DUbHF4sWaohm2TI4EUSb7Q2+ISpZI/5PCNnaYZYIkgzMgD9qmwu6Qd+2v+OPe7Y48nVYJzER9/UvzEkyODZeJDdXPkaVuHuvybBd7jJp/Wj47QEv0m6T+YsurqYm5Je97bkVjOyp60r6N0mH35U1ThjAA"
+    },
+    {
+      "order": 39,
+      "id": "e45b91ccdd954470fa5092893b4e828bf97ffd782ca68ddb7a3f4989d5098efd",
+      "key": "cotswolds/e45b91ccdd954470fa5092893b4e828bf97ffd782ca68ddb7a3f4989d5098efd.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Shaggy horned cow facing the camera on a wooded path.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRgwBAABXRUJQVlA4IAABAACwBgCdASogABgAPwForE8rJaQiMAgBYCAJYwC07a9cYGmDaNGCslwdY6ZH/AIvJ5IdlBFemp8nGWizLJ2uAADiaqFTuVVoG1CssGcS+46XH2lxeJvu+RS9NLUF7/MexPd5oAblYy6ZgHzdSd5m0Lc3Txvydw3pdL1QsZNDvoEhVqiOYGPqAzn8jcV3ObJ7XSMiuIEV/ypj08SGAfij0QOgFfC+sqxu7t+OX36MUX87SaVOgytjjLjfWkIPosYe7i7eNyPDFkEtx6EyD5TGJyJ5mAygFG7kLb0IXXnvDH9opXom1hDLSFBOtGSN/FaUPXVyiRbTEZyt9OC7czCiCwAA"
+    },
+    {
+      "order": 40,
+      "id": "5f0b72adaf355e2377a32aee4366df1f1e5f1d3eab97abc9efe0411f51348587",
+      "key": "cotswolds/5f0b72adaf355e2377a32aee4366df1f1e5f1d3eab97abc9efe0411f51348587.jpg",
+      "width": 2560,
+      "height": 2073,
+      "alt": "Longhorn cattle and a calf grazing beneath a tree.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAADwBQCdASogABoAPwForE6rJaQiMAgBYCAJQBdgZi0N4XHeuVA8DHnKd0l7g5ketbF72Ab7pEDCiAD2WEHcfJ2lV2eA8iZjgMwuwp4w1/r3LcCMXtZEs/go+hC91DKRjYuQFAwhQSmrfZ8Rbx61FVo3TxtYcYZfO2Zz9WbZP8goEtDKd7EfskBLzyHaNwVC16xdmkL9hXn5ld/VIDdB4RDpgHmbOrrWdI6CQROlZ+XL+BXV1nswOGyzbUZ9u6Fdbvtx269GERPDdmNLrAO7VdjmkVsEFCjn9K97t8425uyV4yvkf7JYDDy9fPE9jhJtAc3SV55QAAA="
+    },
+    {
+      "order": 41,
+      "id": "df2b331fc041f05fd653bb9218eb436c25eda78ea01b3aca7f14bc06d00f9c28",
+      "key": "cotswolds/df2b331fc041f05fd653bb9218eb436c25eda78ea01b3aca7f14bc06d00f9c28.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Cattle standing together in a shallow river.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAACwBQCdASogABgAPwFurU8rJqQiMAgBYCAJaAC7ABMucznfeyAtRIjfbmqULLqHeE9cnBxpgKAA/rN1tgrWIC3gZWEwUmrvIxc/A59RfIh0sHixt8jEwYVCmSyegOyOhHH9uL6b0/S49T+UA6bKQjGAeqtK6gO67gYzAZDcFDXDvpxgMQ3oMZIinNMZ3kJH5EViU7pps3uEpnRhaRR54escEd22F/gKs3vd99hUvLOJ3sMahCDGWpYee18DZBkNZrfxxErPD2OfKPsbYL/basDK2A22rq6knCaErPXyV9vcB+nW8AA="
+    },
+    {
+      "order": 42,
+      "id": "8979e8fe05376361921ff008419191c271670fc20e89e834526f092e21db59d4",
+      "key": "cotswolds/8979e8fe05376361921ff008419191c271670fc20e89e834526f092e21db59d4.jpg",
+      "width": 1774,
+      "height": 2560,
+      "alt": "Tall clipped hedge shaped like a face.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABwBQCdASoWACAAPwFyrFCrJyQisBgIAWAgCWUAuDANDKyISQxNvyqydBtpTDKuI/7aVTQAAP7t4YS7KV6r/3lkPmOC0PgIqORm1AMl3p7meIvrLYwJodSCu1UQOKLa1gbP4TIaNLvEUUShYKf9PJvzuKGhkSYv2V04t6Q7AwRB9VfMxwgz1FiO2nDnIG8Pl8O/cCF6vTfui9wgAAA="
+    },
+    {
+      "order": 43,
+      "id": "dab485ba21c56fb121aa1f4aaa9aa2de3d17219b5334ecbcdd6bf24872a68a5e",
+      "key": "cotswolds/dab485ba21c56fb121aa1f4aaa9aa2de3d17219b5334ecbcdd6bf24872a68a5e.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Formal garden lawn and reflecting canal viewed from a stone terrace.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAAAQBgCdASogABgAPwFsrE6rJiQiMAgBYCAJZgCB7TvK7eWAE26Nr34hVjX8du4qiEZbiBrB0ckMPjAA/p9B0KiBf0imc8Q+ui1WepsGezpa4SClL63b8zOb0cUMpvastcPlSzD9cLRckKrBuO8kFDWmH86wrKLMGA/1xx4zdgs/XVGDhCoJ4xlgNv0eE9Cboz3Z8dSlsUgK/welbTGYV5xj/N/ez7fQUMtI6MTmAnwIhZyXxgyrULaeL5nasRHNZ4puyLIi3iFrfmx9mA7V+9h25vXeKvSTBBsqGKy1gtxiC4tseYaYMNuQAAA="
+    },
+    {
+      "order": 44,
+      "id": "ef6ef6d26d8a8faa3fab9b54f4c98aec4378642e55a94c26d73a90d0fd2bb148",
+      "key": "cotswolds/ef6ef6d26d8a8faa3fab9b54f4c98aec4378642e55a94c26d73a90d0fd2bb148.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Wooden Cotswold Way trail sign among trees.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAAAwBQCdASogABgAPwFqrU8rJiQiMAgBYCAJZQDDObFA4BoLXue52XRHoLiO331yWqFyAAD4WNfdHwf/Z9rzKaupUqqVKMIKsVUPWl6YxOseSqx9QEwX24kScXrl6W5QrdTOFaTXZ5VEcyEiMWAoUPiG2osIAv8jHKdAelnbsBBgqFozWjnnMer2a2OVA9FVk4isJQBi6b5ZNA7tATYUQTDE6jVgMG9eE0YKTeYSbsNzVwm4knRWJ9YYPSW8CkAA"
+    },
+    {
+      "order": 45,
+      "id": "8011730e34c7f2e3f9be39eb5fca01415f658ff8d7d4bf30a27d9734acba498f",
+      "key": "cotswolds/8011730e34c7f2e3f9be39eb5fca01415f658ff8d7d4bf30a27d9734acba498f.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Country house at the end of a long formal garden avenue.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACQBQCdASogABgAPwFwsVIrJiSiqAqpYCAJQBAAGkRGIufqkfYLrmRPlSvKmbqM1YX2pSQNgAD+mpIQDEHlpMsJRo4/2R4qAwK0/gJcinxWc2viYFPWaqSMmHfLKNbyj5/RM5lMbpfL7kUjKVV+KJf0fBbk6IogTRdXUqYn8i01xu45CqHGJxwOPQDcsjkLt3k4qQVljaU2Ws041Dp0sL+3x41Y6jTQTVkkmrdpl1Oo9YrRd7O1zfL41AZUovkeMZkWhaLUJYBoAA=="
+    },
+    {
+      "order": 46,
+      "id": "806d60e180cb870c13a7fa94d0bcf63f5267db1a6a1c868d62f6eed6c9c8cec6",
+      "key": "cotswolds/806d60e180cb870c13a7fa94d0bcf63f5267db1a6a1c868d62f6eed6c9c8cec6.jpg",
+      "width": 2560,
+      "height": 1920,
+      "alt": "Delicate blue wildflowers rising above a green meadow.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBQCdASogABgAPwFqq06rJiOiMAgBYCAJQBjAhDvkXlLVHCmfgwpf14C5jEwGewSgAP7nKxB0XNWWSRz5pJXBhsZSCVKr5AANG8E4MSQN67s9Cf/uDivH28Gc7QBVh59cJO/zzjuwj32YOwlhH/8QNRlwsNkyyuJj/6W7BoC8qYAU8kJhLPWAki3HusfSWkr4bwgL9kdwAA=="
+    },
+    {
+      "order": 47,
+      "id": "e88ab330d43842fdf73fe302ac2d496f89441d9affec3030a044db16bef20f1c",
+      "key": "cotswolds/e88ab330d43842fdf73fe302ac2d496f89441d9affec3030a044db16bef20f1c.jpg",
+      "width": 2560,
+      "height": 1443,
+      "alt": "Bare field disappearing into dense gray fog.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASogABIAPwFqrU6rJiQiMAgBYCAJZwDGQCHfXx/bs2quQoAA/t6Gknd7VIPPLlz6InwjIThVOXDpnOvQVHDW7C7g4MMDYAAA"
+    },
+    {
+      "order": 48,
+      "id": "8dbfcbdc21bd11122a1ff90d3bcd6d7b317a21ba8e3533f19706749405edbb38",
+      "key": "cotswolds/8dbfcbdc21bd11122a1ff90d3bcd6d7b317a21ba8e3533f19706749405edbb38.jpg",
+      "width": 2560,
+      "height": 1592,
+      "alt": "Four sheep walking in single file across a pasture.",
+      "caption": "",
+      "blurSrc": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBQCdASogABQAPwFyrlCrJyQisBgIAWAgCUAYVmq4NG5I34FWdb9U+JBUjaotPSQ0AAD+zZ3aWZXHn7bjPqe+abmlDmhpXXA/Hbkdeq6dp405ZKm+Obi/B7bq2NPhnxsIyBG7/s0auEQmNs45Oc4QHaHzInjVP7O4tsx/tnAg1tmAAAA="
+    }
+  ]
+}

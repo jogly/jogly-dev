@@ -4,7 +4,7 @@
     "target": "es2023",
     "lib": ["ES2023"],
     "module": "esnext",
-    "types": ["node"],
+    "types": ["node", "bun"],
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -20,5 +20,14 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts",
+    "scripts/export-photo-manifest.ts",
+    "scripts/import-photos.ts",
+    "scripts/import-photos.test.ts",
+    "scripts/photo-assets.ts",
+    "scripts/verify-photo-site.ts",
+    "scripts/photo-assets.test.ts",
+    "scripts/transition-duration.test.ts"
+  ]
 }

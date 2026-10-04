@@ -25,10 +25,31 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: "true"
+
+      - name: Download pinned photo delivery bundle
+        run: bun run photos:fetch
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Test photo pipeline
+        run: bun run test:photos
 
       - name: Build
         run: bun run build
+
+      - name: Verify production files over plain HTTP
+        run: |
+          python3 -m http.server 4174 --bind 127.0.0.1 --directory dist > /tmp/jogly-photo-http.log 2>&1 &
+          photo_server_pid=$!
+          trap 'kill "$photo_server_pid"' EXIT
+          for attempt in 1 2 3 4 5; do
+            curl --fail --silent http://127.0.0.1:4174/cotswolds/ > /dev/null && break
+            sleep 1
+          done
+          bun run photos:smoke -- http://127.0.0.1:4174
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
